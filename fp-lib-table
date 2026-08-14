@@ -1,0 +1,9 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "P_Phoenix") (type "KiCad") (uri "C:/Users/nzofra/Documents/DOC_Perso/Kicad/Libraries/Footprint/P_Phoenix.pretty") (options "") (descr ""))
+	(lib (name "P_SOIC") (type "KiCad") (uri "C:/Users/nzofra/Documents/DOC_Perso/Kicad/Libraries/Footprint/P_SOIC.pretty") (options "") (descr ""))
+	(lib (name "P_LGA") (type "KiCad") (uri "C:/Users/nzofra/Documents/DOC_Perso/Kicad/Libraries/Footprint/P_LGA.pretty") (options "") (descr ""))
+	(lib (name "P_SOIC") (type "KiCad") (uri "C:/Users/nzofra/Documents/DOC_Perso/Kicad/Libraries/Footprint/P_SOIC.pretty") (options "") (descr ""))
+	(lib (name "P_Phoenix") (type "KiCad") (uri "C:/Users/nzofra/Documents/DOC_Perso/Kicad/Libraries/Footprint/P_Phoenix.pretty") (options "") (descr ""))
+	(lib (name "P_Specific_Footprint") (type "KiCad") (uri "C:/Users/nzofra/Documents/DOC_Perso/Kicad/Libraries/Footprint/P_Specific_Footprint.pretty") (options "") (descr ""))
+)

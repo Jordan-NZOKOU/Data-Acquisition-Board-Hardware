@@ -1,0 +1,466 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0a00d473-e3b0-43fe-b305-746583278f51")
+	(paper "A4")
+	(title_block
+		(title "Data Acquisition Board")
+		(date "2026-07-30")
+		(rev "A-01")
+		(company "Blue Signal")
+	)
+	(lib_symbols)
+	(text_box "^ Possible ameliorations :\n	- A better GPIO estender\n	- ISO1228 for digital input between 8.5V to 36V\n	- I2C/SPI isolation : Texas instrument\n	- ACSL-7210 for UART Isolation\n	- THVD4411 For RS232 and RS485 communication"
+		(exclude_from_sim no)
+		(at 194.31 128.27 0)
+		(size 38.1 13.5716)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b113dfa8-bf9a-48c5-820d-32d30c14c254")
+	)
+	(text_box "^ Componants choice :\n	- TCAL9539 Digital I/O\n	- LED ws2812b\n	- RS232 IC with isolation\n	- Switcher"
+		(exclude_from_sim no)
+		(at 194.31 111.76 0)
+		(size 38.1 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "fabfa18f-47cd-434c-884d-e9403596f602")
+	)
+	(junction
+		(at 187.96 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d177458-d886-4246-b73d-49b1c5971fde")
+	)
+	(bus
+		(pts
+			(xy 184.15 43.18) (xy 187.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0d390f-28b7-4ba2-95c1-245201a745b5")
+	)
+	(bus
+		(pts
+			(xy 187.96 43.18) (xy 193.04 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5084173c-ffde-4cba-85d2-8d1c62825890")
+	)
+	(bus
+		(pts
+			(xy 187.96 80.01) (xy 187.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878359a0-21d7-452c-8fb1-d58f8695462f")
+	)
+	(bus
+		(pts
+			(xy 193.04 80.01) (xy 187.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3c7abe-93bc-48de-b6e5-48de201bc0e1")
+	)
+	(sheet
+		(at 120.65 31.75)
+		(size 63.5 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 194 0.5019607843)
+		)
+		(uuid "010e493e-f38b-4bcf-bb40-d616c0d1b790")
+		(property "Sheetname" "MCU"
+			(at 120.65 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 120.65 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Serial_COM" bidirectional
+			(at 184.15 43.18 0)
+			(uuid "011f4cf0-d1b3-4006-b7c1-eeea0dddde6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Data_Acquisition_Board"
+				(path "/0a00d473-e3b0-43fe-b305-746583278f51"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 73.66)
+		(size 63.5 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 194 0.5019607843)
+		)
+		(uuid "04b37ecd-0f2e-4ed8-adff-96ccff99aec2")
+		(property "Sheetname" "Serial Interface"
+			(at 193.04 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Serial Interface.kicad_sch"
+			(at 193.04 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Serial_COM" bidirectional
+			(at 193.04 80.01 180)
+			(uuid "c08e7fbe-dbb1-4677-a291-bc1191e0c167")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Data_Acquisition_Board"
+				(path "/0a00d473-e3b0-43fe-b305-746583278f51"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 111.76)
+		(size 63.5 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 194 0.5019607843)
+		)
+		(uuid "0db9b673-fd67-4f32-b8c8-df79e010a796")
+		(property "Sheetname" "Power"
+			(at 120.65 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 120.65 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Data_Acquisition_Board"
+				(path "/0a00d473-e3b0-43fe-b305-746583278f51"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 34.29)
+		(size 58.42 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 194 0.5019607843)
+		)
+		(uuid "351a93f6-360a-404c-bede-39cbbc185ddf")
+		(property "Sheetname" "Sensor"
+			(at 193.04 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor.kicad_sch"
+			(at 193.04 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Serial_COM" bidirectional
+			(at 193.04 43.18 180)
+			(uuid "f655239e-40bc-4105-94a9-e89dd54a5efd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Data_Acquisition_Board"
+				(path "/0a00d473-e3b0-43fe-b305-746583278f51"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 33.02)
+		(size 63.5 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 194 0.5019607843)
+		)
+		(uuid "87c1f953-7a81-4c7f-973a-ab2a03ef71fb")
+		(property "Sheetname" "Input&Output-ADC"
+			(at 34.29 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input&Output-ADC.kicad_sch"
+			(at 34.29 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Data_Acquisition_Board"
+				(path "/0a00d473-e3b0-43fe-b305-746583278f51"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 114.3)
+		(size 63.5 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 194 0.5019607843)
+		)
+		(uuid "b730a1a8-6fb7-4f8d-8321-ad341f546adb")
+		(property "Sheetname" "MCU IOT"
+			(at 34.29 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU IOT.kicad_sch"
+			(at 34.29 144.0946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Data_Acquisition_Board"
+				(path "/0a00d473-e3b0-43fe-b305-746583278f51"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 73.66)
+		(size 63.5 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 194 0.5019607843)
+		)
+		(uuid "f8d7e77e-a399-4033-b343-e6f903c4bc4c")
+		(property "Sheetname" "Input&Output-Command"
+			(at 34.29 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input&Output-Command.kicad_sch"
+			(at 34.29 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Data_Acquisition_Board"
+				(path "/0a00d473-e3b0-43fe-b305-746583278f51"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
