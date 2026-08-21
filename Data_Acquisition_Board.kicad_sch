@@ -9,6 +9,7 @@
 		(date "2026-07-30")
 		(rev "A-01")
 		(company "Blue Signal")
+		(comment 1 "Engineer : Franklin Jordan NZOKOU DJOKO")
 	)
 	(lib_symbols)
 	(text_box "^ Possible ameliorations :\n	- A better GPIO estender\n	- ISO1228 for digital input between 8.5V to 36V\n	- I2C/SPI isolation : Texas instrument\n	- ACSL-7210 for UART Isolation\n	- THVD4411 For RS232 and RS485 communication"

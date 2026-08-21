@@ -9,6 +9,7 @@
 		(date "2026-07-30")
 		(rev "A-01")
 		(company "Blue Signal")
+		(comment 1 "Engineer : Franklin Jordan NZOKOU DJOKO")
 	)
 	(lib_symbols)
 )
