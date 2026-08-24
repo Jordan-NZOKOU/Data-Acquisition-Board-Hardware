@@ -5169,7 +5169,7 @@
 		)
 		(uuid "3ae08909-ddc6-4e3f-a535-7470cf06a9f3")
 	)
-	(label "SPI2_SCLK"
+	(label "SPI2_SCK"
 		(at 128.27 144.78 0)
 		(effects
 			(font
@@ -5394,7 +5394,7 @@
 		)
 		(uuid "b7210cb6-e307-4540-aa82-225f9d28d524")
 	)
-	(label "SPI1_SCLK"
+	(label "SPI1_SCK"
 		(at 128.27 133.35 0)
 		(effects
 			(font
@@ -5416,7 +5416,7 @@
 		)
 		(uuid "ca170f07-8a97-48aa-bcac-fa236bb9d4d3")
 	)
-	(label "SPI1_SCLk"
+	(label "SPI1_SCK"
 		(at 72.39 111.76 0)
 		(effects
 			(font
@@ -5479,7 +5479,7 @@
 		)
 		(uuid "e1cbdb97-2192-4488-8c29-cf08bcefc117")
 	)
-	(label "SPI2_SCLk"
+	(label "SPI2_SCK"
 		(at 26.67 110.49 0)
 		(effects
 			(font
@@ -6244,6 +6244,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x06")
+		(at 101.6 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11f97948-45ca-4bca-8a69-d5595a822769")
+		(property "Reference" "J?"
+			(at 104.14 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "*"
+			(at 104.14 53.3399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal"
+			(at 101.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 101.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "Screw_Terminal_01x06"
+			(at 101.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PackageReference" "Terminal_Bloc_01x06_P2.54mm"
+			(at 101.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "*"
+			(at 101.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "RS485"
+			(at 106.934 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9eca643f-dd2d-4598-b156-579912445603")
+		)
+		(pin "2"
+			(uuid "2f3bb626-0c4a-41cd-bde2-0580bf308b88")
+		)
+		(pin "5"
+			(uuid "1505c040-534b-4580-849a-ca4f9a2c0dff")
+		)
+		(pin "1"
+			(uuid "ddd15335-bdf1-40a0-bec0-ff68bdba3630")
+		)
+		(pin "3"
+			(uuid "349ac1f1-8993-4249-8667-96ec1c425e03")
+		)
+		(pin "6"
+			(uuid "554373b9-e13f-4fbe-84bb-f01ca4188aba")
+		)
+		(instances
+			(project "Data_Acquisition_Board"
+				(path "/0a00d473-e3b0-43fe-b305-746583278f51/04b37ecd-0f2e-4ed8-adff-96ccff99aec2"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 82.55 149.86 0)
 		(mirror y)
@@ -6316,6 +6453,137 @@
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/04b37ecd-0f2e-4ed8-adff-96ccff99aec2"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 269.24 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "174a1b0f-904c-44c5-8141-f46a4936e65a")
+		(property "Reference" "J?"
+			(at 271.78 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "*"
+			(at 271.78 41.9099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "Screw_Terminal_01x04"
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PackageReference" "Terminal_Bloc_01x04_P2.54mm"
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "*"
+			(at 269.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "RS232"
+			(at 274.574 42.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8f4cfa0c-742b-4a3e-9c34-e670669ff974")
+		)
+		(pin "1"
+			(uuid "803f801e-d4f1-4f2e-874f-892e95783c9a")
+		)
+		(pin "2"
+			(uuid "2239d260-a0f3-4356-9b5e-0be93d9d4886")
+		)
+		(pin "4"
+			(uuid "4708570a-f629-4226-aafe-f8a4bd4cc3d1")
+		)
+		(instances
+			(project "Data_Acquisition_Board"
+				(path "/0a00d473-e3b0-43fe-b305-746583278f51/04b37ecd-0f2e-4ed8-adff-96ccff99aec2"
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -8262,137 +8530,6 @@
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/04b37ecd-0f2e-4ed8-adff-96ccff99aec2"
 					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 269.24 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53f82242-37c2-4ea9-acf0-6af23827c408")
-		(property "Reference" "J?"
-			(at 271.78 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "*"
-			(at 271.78 41.9099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
-			(at 269.24 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 269.24 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PartNumber" "Screw_Terminal_01x04"
-			(at 269.24 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PackageReference" "Terminal_Bloc_01x04_P2.54mm"
-			(at 269.24 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "*"
-			(at 269.24 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "RS232"
-			(at 274.32 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "13b4e90f-72a7-4f76-b14e-4e994ab7c98f")
-		)
-		(pin "2"
-			(uuid "bd30e657-e0a2-4a55-abc6-40b5ff984748")
-		)
-		(pin "3"
-			(uuid "7b40de43-4854-489d-952d-e13c50617ca0")
-		)
-		(pin "1"
-			(uuid "f4ef17a3-fa10-4107-9046-e2c3fbe7ece9")
-		)
-		(instances
-			(project "Data_Acquisition_Board"
-				(path "/0a00d473-e3b0-43fe-b305-746583278f51/04b37ecd-0f2e-4ed8-adff-96ccff99aec2"
-					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -10660,143 +10797,6 @@
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/04b37ecd-0f2e-4ed8-adff-96ccff99aec2"
 					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x06")
-		(at 101.6 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c704f77a-88a5-447e-b7f0-1395dd6448c5")
-		(property "Reference" "J?"
-			(at 103.378 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "*"
-			(at 104.14 53.3399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal"
-			(at 101.6 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 101.6 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PartNumber" "Screw_Terminal_01x06"
-			(at 101.6 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PackageReference" "Terminal_Bloc_01x06_P2.54mm"
-			(at 101.6 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "*"
-			(at 101.6 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "RS485"
-			(at 106.426 53.848 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "db54df4b-e950-4e08-ad58-6eb25975730c")
-		)
-		(pin "1"
-			(uuid "58747beb-846c-491d-9e08-49132148c2e6")
-		)
-		(pin "2"
-			(uuid "2de074aa-af71-4780-898f-70d10483de04")
-		)
-		(pin "6"
-			(uuid "292d4e17-64b6-4b80-ba2d-62f97c93dda5")
-		)
-		(pin "3"
-			(uuid "6117243c-7610-4c2b-bc6a-3078dee63927")
-		)
-		(pin "4"
-			(uuid "6373a7ac-7f70-4111-b953-5ad0fc4996a8")
-		)
-		(instances
-			(project "Data_Acquisition_Board"
-				(path "/0a00d473-e3b0-43fe-b305-746583278f51/04b37ecd-0f2e-4ed8-adff-96ccff99aec2"
-					(reference "J?")
 					(unit 1)
 				)
 			)

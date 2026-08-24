@@ -3007,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 102.87) (xy 111.76 105.41)
+			(xy 113.03 102.87) (xy 113.03 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4187,7 +4187,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 120.65) (xy 111.76 123.19)
+			(xy 113.03 120.65) (xy 113.03 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5359,7 +5359,7 @@
 		(dnp no)
 		(uuid "081412bf-52ac-45f5-bc9f-d7e7e3162d1e")
 		(property "Reference" "D?"
-			(at 85.344 106.934 90)
+			(at 84.582 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5561,7 +5561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "084e9c8f-0611-4fcb-bd3d-fda8da2fc455")
-		(property "Reference" "R17"
+		(property "Reference" "R?"
 			(at 59.436 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5667,7 +5667,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R17")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6207,8 +6207,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b7e2308-3106-4329-8514-e32817f32934")
-		(property "Reference" "R9"
-			(at 67.056 36.83 90)
+		(property "Reference" "R?"
+			(at 67.564 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6313,7 +6313,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R9")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6330,7 +6330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1dbf0f5c-9f27-4346-845c-cc093a3a1f0a")
-		(property "Reference" "D4"
+		(property "Reference" "D?"
 			(at 67.31 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6444,7 +6444,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "D4")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7180,7 +7180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bb3aaee-56f7-44e4-a0ca-0667aa0589fc")
-		(property "Reference" "J5"
+		(property "Reference" "J?"
 			(at 41.91 95.6055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7297,7 +7297,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "J5")
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -7315,7 +7315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ca18cd9-cf00-475e-8247-aabeab1a8530")
-		(property "Reference" "J6"
+		(property "Reference" "J?"
 			(at 41.91 132.4355 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7432,7 +7432,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "J6")
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -7730,7 +7730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "341d2823-1372-4bb5-b6fd-bc9dcf8c3064")
-		(property "Reference" "D5"
+		(property "Reference" "D?"
 			(at 59.69 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,7 +7851,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "D5")
+					(reference "D?")
 					(unit 3)
 				)
 			)
@@ -7868,7 +7868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34d7fbc8-2702-419a-8cef-deed71df05ad")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 148.336 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8093,7 +8093,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "U2")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -8266,7 +8266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a7605a5-730a-4ce9-a20e-2d3e39951292")
-		(property "Reference" "D5"
+		(property "Reference" "D?"
 			(at 64.77 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8387,7 +8387,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "D5")
+					(reference "D?")
 					(unit 5)
 				)
 			)
@@ -8404,7 +8404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e6390b8-1886-4def-b5fa-7955380e229d")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 195.58 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8629,7 +8629,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "U2")
+					(reference "U?")
 					(unit 3)
 				)
 			)
@@ -8715,7 +8715,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:Opamp_Quad")
-		(at 114.3 113.03 0)
+		(at 115.57 113.03 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8726,7 +8726,7 @@
 		(fields_autoplaced yes)
 		(uuid "57e54956-7a10-4e3a-a42f-39a1f0a689d8")
 		(property "Reference" "U?"
-			(at 113.03 111.7599 0)
+			(at 114.3 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8737,7 +8737,7 @@
 			)
 		)
 		(property "Value" "G=1"
-			(at 113.03 114.2999 0)
+			(at 114.3 114.2999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8749,7 +8749,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 114.3 113.03 0)
+			(at 115.57 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8760,7 +8760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 113.03 0)
+			(at 115.57 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8771,7 +8771,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 114.3 121.92 0)
+			(at 115.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8782,7 +8782,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 101.6 125.73 0)
+			(at 102.87 125.73 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8794,7 +8794,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 101.6 133.35 0)
+			(at 102.87 133.35 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8806,7 +8806,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 101.6 130.81 0)
+			(at 102.87 130.81 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8818,7 +8818,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 101.6 128.27 0)
+			(at 102.87 128.27 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8830,7 +8830,7 @@
 			)
 		)
 		(property private "KLC_S3.1" "Units A+B are centered, UnitC has a offset so it fits nicely on A or B."
-			(at 101.6 137.16 0)
+			(at 102.87 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8842,7 +8842,7 @@
 			)
 		)
 		(property private "KLC_S4.1" "Pin1 and Pin7 are the output, adding a name would look ugly and does not add a benefit."
-			(at 101.6 139.7 0)
+			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8854,7 +8854,7 @@
 			)
 		)
 		(property private "KLC_S6.2" "This is a generic symbol and thus has no datasheet."
-			(at 101.6 142.24 0)
+			(at 102.87 142.24 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8866,7 +8866,7 @@
 			)
 		)
 		(property "PartNumber" "OPA4323"
-			(at 114.3 113.03 0)
+			(at 115.57 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8877,7 +8877,7 @@
 			)
 		)
 		(property "PackageReference" "TSSOP, SOT-23-THN"
-			(at 114.3 113.03 0)
+			(at 115.57 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8888,7 +8888,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 114.3 113.03 0)
+			(at 115.57 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8899,7 +8899,7 @@
 			)
 		)
 		(property "Comment" "OPA"
-			(at 114.3 113.03 0)
+			(at 115.57 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9127,7 +9127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61142569-5e5e-47d4-9b1b-e8adb85730a4")
-		(property "Reference" "R14"
+		(property "Reference" "R?"
 			(at 67.056 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9233,7 +9233,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R14")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9765,7 +9765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "734c6be2-5eb0-4e03-a7b9-f4c38239858f")
-		(property "Reference" "D5"
+		(property "Reference" "D?"
 			(at 62.23 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9886,7 +9886,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "D5")
+					(reference "D?")
 					(unit 4)
 				)
 			)
@@ -9981,7 +9981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77e8ee82-8f06-4b47-be79-45789e290fde")
-		(property "Reference" "R12"
+		(property "Reference" "R?"
 			(at 67.564 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10087,7 +10087,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R12")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10173,7 +10173,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 111.76 102.87 0)
+		(at 113.03 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10184,7 +10184,7 @@
 		(dnp no)
 		(uuid "81f81cb6-d4ba-4eee-8603-df902f4cddcb")
 		(property "Reference" "#PWR052"
-			(at 111.76 106.68 0)
+			(at 113.03 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10195,7 +10195,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 111.76 99.06 0)
+			(at 113.03 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10205,7 +10205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 102.87 0)
+			(at 113.03 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10216,7 +10216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 102.87 0)
+			(at 113.03 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10227,7 +10227,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 111.76 102.87 0)
+			(at 113.03 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10260,7 +10260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8260e99d-d172-4292-a62d-de6cc4eb7264")
-		(property "Reference" "R20"
+		(property "Reference" "R?"
 			(at 86.36 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10366,7 +10366,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R20")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10552,7 +10552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.832 52.07 0)
+			(at 53.34 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10618,7 +10618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88960a9e-c200-4761-8f1c-a0ab8bcb37f9")
-		(property "Reference" "J4"
+		(property "Reference" "J?"
 			(at 43.18 38.4555 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10741,7 +10741,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "J4")
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -10836,7 +10836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92e28523-9719-4981-b7db-8c12abd7f57a")
-		(property "Reference" "R19"
+		(property "Reference" "R?"
 			(at 72.39 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10942,7 +10942,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R19")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10959,7 +10959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "976ab226-02da-4417-9232-dd6108dd4fb6")
-		(property "Reference" "C13"
+		(property "Reference" "C?"
 			(at 233.934 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11067,7 +11067,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "C13")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -11084,7 +11084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0158fdf-7136-46e6-9b07-ce614cdf6a08")
-		(property "Reference" "C15"
+		(property "Reference" "C?"
 			(at 246.634 41.402 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11192,7 +11192,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "C15")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -11490,7 +11490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0f8617d-65cd-481f-824c-6796aaa566c0")
-		(property "Reference" "R18"
+		(property "Reference" "R?"
 			(at 59.436 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11596,7 +11596,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R18")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11613,7 +11613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2f7b24d-1730-470d-aa42-eec865025890")
-		(property "Reference" "C16"
+		(property "Reference" "C?"
 			(at 252.984 41.402 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11721,7 +11721,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "C16")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -11739,7 +11739,7 @@
 		(dnp no)
 		(uuid "b35b3ebb-025c-441d-a3a5-511e72349e8b")
 		(property "Reference" "D?"
-			(at 99.314 106.934 90)
+			(at 99.06 104.648 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11941,7 +11941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf2afdd8-140a-4953-986b-a31d0613adc6")
-		(property "Reference" "R13"
+		(property "Reference" "R?"
 			(at 67.056 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12047,7 +12047,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R13")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -12064,8 +12064,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c399e921-f3f1-43fd-9378-9c7ec818b9dc")
-		(property "Reference" "R15"
-			(at 77.47 110.236 90)
+		(property "Reference" "R?"
+			(at 74.93 106.172 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12075,7 +12075,7 @@
 			)
 		)
 		(property "Value" "9.1k"
-			(at 77.724 102.616 90)
+			(at 76.962 106.172 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12170,7 +12170,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R15")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -12187,7 +12187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7de2734-cc5c-41ae-8aeb-c109a379f7a1")
-		(property "Reference" "R11"
+		(property "Reference" "R?"
 			(at 67.564 42.164 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12293,7 +12293,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R11")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -12629,7 +12629,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 123.19 0)
+		(at 113.03 123.19 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12640,7 +12640,7 @@
 		(dnp no)
 		(uuid "ccc8e5e3-eca1-4dc3-ae72-27cf8dc832df")
 		(property "Reference" "#PWR053"
-			(at 111.76 129.54 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12651,7 +12651,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.252 127 0)
+			(at 112.522 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12661,7 +12661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 123.19 0)
+			(at 113.03 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12672,7 +12672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 123.19 0)
+			(at 113.03 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12683,7 +12683,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 123.19 0)
+			(at 113.03 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12794,7 +12794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d39419e5-f923-4b8b-8bb1-f5255d6f27e0")
-		(property "Reference" "D5"
+		(property "Reference" "D?"
 			(at 57.15 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12915,7 +12915,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "D5")
+					(reference "D?")
 					(unit 2)
 				)
 			)
@@ -13135,8 +13135,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0a10fa3-cc59-4835-a05c-f0b20b94c2a7")
-		(property "Reference" "R16"
-			(at 91.44 110.236 90)
+		(property "Reference" "R?"
+			(at 88.9 106.172 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13146,7 +13146,7 @@
 			)
 		)
 		(property "Value" "9.1k"
-			(at 91.694 102.616 90)
+			(at 90.678 106.172 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13241,7 +13241,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R16")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -13258,7 +13258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e320b72a-d0e4-48f1-9175-edbdc65ad46d")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 148.082 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13483,7 +13483,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "U2")
+					(reference "U?")
 					(unit 2)
 				)
 			)
@@ -13578,7 +13578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e441d2d3-1baf-49af-9cfd-524086bca1b5")
-		(property "Reference" "D5"
+		(property "Reference" "D?"
 			(at 72.39 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13697,7 +13697,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "D5")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -14284,7 +14284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8c3826e-8170-48d1-933e-109586b25fb5")
-		(property "Reference" "C14"
+		(property "Reference" "C?"
 			(at 240.538 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14392,7 +14392,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "C14")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -14409,7 +14409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faf69289-fa80-4daa-bed1-6560a13400f5")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 195.834 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14634,7 +14634,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "U2")
+					(reference "U?")
 					(unit 4)
 				)
 			)
@@ -14651,7 +14651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc44eedd-025f-4680-88d0-8bab29bdd1f7")
-		(property "Reference" "R10"
+		(property "Reference" "R?"
 			(at 67.564 39.624 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14757,7 +14757,7 @@
 		(instances
 			(project "Data_Acquisition_Board"
 				(path "/0a00d473-e3b0-43fe-b305-746583278f51/87c1f953-7a81-4c7f-973a-ab2a03ef71fb"
-					(reference "R10")
+					(reference "R?")
 					(unit 1)
 				)
 			)

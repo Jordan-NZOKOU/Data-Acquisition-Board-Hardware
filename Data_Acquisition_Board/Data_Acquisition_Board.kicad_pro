@@ -256,15 +256,13 @@
       "P_Phoenix",
       "P_SOIC",
       "P_LGA",
-      "P_Specific_Footprint",
-      "P_MCU"
+      "P_Specific_Footprint"
     ],
     "pinned_symbol_libs": [
       "P_Interface",
       "P_Phoenix_Connector",
       "P_Isolator",
-      "P_Sensor",
-      "P_MCU"
+      "P_Sensor"
     ]
   },
   "meta": {
@@ -438,15 +436,15 @@
         "I2C2_SCL",
         "I2C3_SDA",
         "I2C3_SCL",
-        "SPI1_SCK",
+        "SPI1_SCLK",
         "SPI1_MOSI",
         "SPI1_MISO",
         "SPI1_CS",
-        "SPI2_SCK",
+        "SPI2_SCLK",
         "SPI2_MOSI",
         "SPI2_MISO",
         "SPI2_CS",
-        "SPI3_SCK",
+        "SPI3_SCLK",
         "SPI3_MOSI",
         "SPI3_MISO",
         "SPI3_CS"
@@ -492,7 +490,7 @@
         "uuid": "0a00d473-e3b0-43fe-b305-746583278f51"
       }
     ],
-    "used_designators": "M1,U1-3,D1-8,BT1,#PWR1-218,C1-16,J1-6,R1-20,Y1-2,SW1,F1-2",
+    "used_designators": "M1,U1-3,D1-8,BT1,#PWR1-175,C1-16,J1-6,R1-20,Y1-2,SW1,F1-2",
     "variants": []
   },
   "sheets": [
