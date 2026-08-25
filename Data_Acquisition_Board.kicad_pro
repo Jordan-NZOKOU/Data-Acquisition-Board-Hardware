@@ -419,6 +419,68 @@
         "GPIO_EXT_P16",
         "GPIO_EXT_P17"
       ],
+      "MCU_ADC": [
+        "ADC1_IN0",
+        "ADC1_IN1",
+        "ADC1_IN2",
+        "ADC1_IN3",
+        "ADC1_IN4",
+        "ADC1_IN5",
+        "ADC1_IN6",
+        "ADC1_IN7"
+      ],
+      "MCU_GPIO_EXT": [
+        "GPIO_EXP_P00",
+        "GPIO_EXP_P01",
+        "GPIO_EXP_P02",
+        "GPIO_EXP_P03",
+        "GPIO_EXP_P04",
+        "GPIO_EXP_P05",
+        "GPIO_EXP_P06",
+        "GPIO_EXP_P07",
+        "GPIO_EXP_P10",
+        "GPIO_EXP_P11",
+        "GPIO_EXP_P12",
+        "GPIO_EXP_P13",
+        "GPIO_EXP_P14",
+        "GPIO_EXP_P15",
+        "GPIO_EXP_P16",
+        "GPIO_EXP_P17"
+      ],
+      "MCU_PWM": [
+        "PWM1_CH0",
+        "PWM1_CH1",
+        "PWM2_CH0",
+        "PWM2_CH1"
+      ],
+      "MCU_Serial_COM": [
+        "Debug_UART_MCU_TX",
+        "Debug_UART_MCU_RX",
+        "UART2_MCU_TX",
+        "UART2_MCU_RX",
+        "IOT_UART_MCU_TX",
+        "IOT_UART_MCU_RX",
+        "RS_UART_MCU_TX",
+        "RS_UART_MCU_RX",
+        "I2C1_SDA",
+        "I2C1_SCL",
+        "I2C2_SDA",
+        "I2C2_SCL",
+        "I2C3_SDA",
+        "I2C3_SCL",
+        "SPI1_SCK",
+        "SPI1_MOSI",
+        "SPI1_MISO",
+        "SPI1_CS",
+        "SPI2_SCK",
+        "SPI2_MOSI",
+        "SPI2_MISO",
+        "SPI2_CS",
+        "SPI3_SCK",
+        "SPI3_MOSI",
+        "SPI3_MISO",
+        "SPI3_CS"
+      ],
       "PWM": [
         "PWM1_CH0",
         "PWM1_CH1",
@@ -492,7 +554,7 @@
         "uuid": "0a00d473-e3b0-43fe-b305-746583278f51"
       }
     ],
-    "used_designators": "M1,U1-3,D1-8,BT1,#PWR1-218,C1-16,J1-6,R1-20,Y1-2,SW1,F1-2",
+    "used_designators": "M1,U1-3,D1-8,BT1,#PWR1-248,C1-16,J1-6,R1-20,Y1-2,SW1,F1-2",
     "variants": []
   },
   "sheets": [
