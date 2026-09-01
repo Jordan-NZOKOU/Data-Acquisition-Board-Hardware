@@ -554,7 +554,7 @@
         "uuid": "0a00d473-e3b0-43fe-b305-746583278f51"
       }
     ],
-    "used_designators": "M1,U1-3,D1-8,BT1,#PWR1-248,C1-16,J1-6,R1-20,Y1-2,SW1,F1-2",
+    "used_designators": "M1,U1-3,D1-8,BT1,#PWR1-269,C1-16,J1-6,R1-20,Y1-2,SW1,F1-2",
     "variants": []
   },
   "sheets": [
@@ -565,10 +565,6 @@
     [
       "010e493e-f38b-4bcf-bb40-d616c0d1b790",
       "MCU"
-    ],
-    [
-      "0db9b673-fd67-4f32-b8c8-df79e010a796",
-      "Power"
     ],
     [
       "87c1f953-7a81-4c7f-973a-ab2a03ef71fb",
@@ -589,6 +585,10 @@
     [
       "b730a1a8-6fb7-4f8d-8321-ad341f546adb",
       "MCU IOT"
+    ],
+    [
+      "0db9b673-fd67-4f32-b8c8-df79e010a796",
+      "Power"
     ]
   ],
   "text_variables": {},

@@ -12,28 +12,4 @@
 		(comment 1 "Engineer : Franklin Jordan NZOKOU DJOKO")
 	)
 	(lib_symbols)
-	(text_box "To do list :\n\n	- FUSE Fooltprint"
-		(exclude_from_sim no)
-		(at 30.48 36.8301 0)
-		(size 16.51 7.6199)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 72 72 72 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 255 1)
-		)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.016 1.016)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "9e573b9c-62d6-41e8-a26b-bd46763c58d4")
-	)
 )

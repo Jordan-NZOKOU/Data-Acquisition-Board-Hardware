@@ -3859,7 +3859,7 @@
 		(uuid "bb65c44d-c31f-44bf-8e67-5252ad62076f")
 	)
 	(junction
-		(at 48.26 35.56)
+		(at 46.99 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "befb92c9-38ac-4662-8a76-7ddfe7d525a8")
@@ -3893,92 +3893,102 @@
 		(uuid "afbfdae4-1915-48d3-83f1-690354aa1caa")
 	)
 	(bus_entry
-		(at 48.26 46.99)
+		(at 46.99 55.88)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 132 1)
 		)
 		(uuid "310dae8f-5454-4df3-8581-be0388972656")
 	)
 	(bus_entry
-		(at 48.26 49.53)
+		(at 46.99 58.42)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 132 1)
 		)
 		(uuid "39c078e4-677b-4c15-a238-7f894db51e1f")
 	)
 	(bus_entry
-		(at 48.26 54.61)
+		(at 46.99 63.5)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 132 1)
 		)
 		(uuid "3ef0bdbf-9993-42a8-bfad-7259622e9cc5")
 	)
 	(bus_entry
-		(at 48.26 46.99)
+		(at 46.99 55.88)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 132 1)
 		)
 		(uuid "4c84be5a-03f2-4fa5-82e0-c31c9e48bd0f")
 	)
 	(bus_entry
-		(at 48.26 40.64)
+		(at 46.99 49.53)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 132 1)
 		)
 		(uuid "574ff33f-15f0-4f7e-8083-c5f04655366d")
 	)
 	(bus_entry
-		(at 48.26 52.07)
+		(at 46.99 60.96)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 132 1)
 		)
 		(uuid "87db6e0c-ee11-4353-ba94-07c011e17c78")
 	)
 	(bus_entry
-		(at 48.26 49.53)
+		(at 46.99 58.42)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 132 1)
 		)
 		(uuid "8943ba2c-6bf7-4db7-ba5e-95b5f42ae584")
 	)
 	(bus_entry
-		(at 48.26 52.07)
+		(at 46.99 60.96)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 132 1)
 		)
 		(uuid "dfa3ec50-8d6b-4494-b394-d68ff781226b")
 	)
 	(bus_entry
-		(at 48.26 54.61)
+		(at 46.99 63.5)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 132 1)
 		)
 		(uuid "ea126e72-b843-4872-82f6-d4c8f8ea4a79")
 	)
 	(bus_entry
-		(at 48.26 38.1)
+		(at 46.99 46.99)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 132 1)
 		)
 		(uuid "ffb841a8-842b-4eca-80bc-c178507c4585")
 	)
@@ -4024,7 +4034,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 43.18) (xy 45.72 43.18)
+			(xy 25.4 52.07) (xy 44.45 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4081,6 +4091,16 @@
 			(type default)
 		)
 		(uuid "0cb4b7a4-f5cd-49f3-8338-6f40d79b9309")
+	)
+	(bus
+		(pts
+			(xy 46.99 43.18) (xy 64.77 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d531f16-f125-4c52-8b45-8def11a73d0c")
 	)
 	(wire
 		(pts
@@ -4484,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 40.64) (xy 45.72 40.64)
+			(xy 25.4 49.53) (xy 44.45 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4554,7 +4574,7 @@
 	)
 	(bus
 		(pts
-			(xy 46.99 35.56) (xy 48.26 35.56)
+			(xy 45.72 44.45) (xy 46.99 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4624,7 +4644,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 50.8 57.15)
+			(xy 68.58 66.04) (xy 49.53 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4634,7 +4654,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 54.61) (xy 50.8 54.61)
+			(xy 68.58 63.5) (xy 49.53 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4724,10 +4744,10 @@
 	)
 	(bus
 		(pts
-			(xy 48.26 34.29) (xy 48.26 35.56)
+			(xy 46.99 43.18) (xy 46.99 44.45)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "90410db7-a22f-4458-b373-a014983c8033")
@@ -4754,23 +4774,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 49.53) (xy 45.72 49.53)
+			(xy 25.4 58.42) (xy 44.45 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "997857e2-c685-4ba7-b4ca-8a87b9cbb2e7")
-	)
-	(bus
-		(pts
-			(xy 48.26 34.29) (xy 72.39 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a399fc9-de87-46f2-8f3e-69627335c805")
 	)
 	(wire
 		(pts
@@ -4864,10 +4874,10 @@
 	)
 	(bus
 		(pts
-			(xy 48.26 35.56) (xy 48.26 57.15)
+			(xy 46.99 44.45) (xy 46.99 66.04)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "a8ca59be-0335-4c73-8fe4-67ef07188c49")
@@ -5034,7 +5044,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 57.15) (xy 45.72 57.15)
+			(xy 25.4 66.04) (xy 44.45 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5064,7 +5074,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 54.61) (xy 45.72 54.61)
+			(xy 25.4 63.5) (xy 44.45 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5204,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 52.07) (xy 50.8 52.07)
+			(xy 68.58 60.96) (xy 49.53 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5294,7 +5304,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 49.53) (xy 50.8 49.53)
+			(xy 68.58 58.42) (xy 49.53 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5314,7 +5324,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 52.07) (xy 45.72 52.07)
+			(xy 25.4 60.96) (xy 44.45 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5383,7 +5393,7 @@
 		(uuid "ffc296fd-3039-47fc-ab78-4e899626d470")
 	)
 	(label "SPI2_MOSI"
-		(at 69.85 52.07 180)
+		(at 68.58 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5394,7 +5404,7 @@
 		(uuid "26ea98df-f320-4650-876f-2447f2f4aa89")
 	)
 	(label "SPI2_MISO"
-		(at 69.85 54.61 180)
+		(at 68.58 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5416,7 +5426,7 @@
 		(uuid "2d520c36-38d8-4234-84aa-e836db58016d")
 	)
 	(label "SPI2_CS"
-		(at 69.85 57.15 180)
+		(at 68.58 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5449,7 +5459,7 @@
 		(uuid "52cf0263-627a-4f80-850a-96eca6e499ad")
 	)
 	(label "SPI2_SCK"
-		(at 69.85 49.53 180)
+		(at 68.58 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5460,7 +5470,7 @@
 		(uuid "6fb2a125-370a-46bb-8f60-86c7098f5791")
 	)
 	(label "SPI1_SCK"
-		(at 26.67 49.53 0)
+		(at 25.4 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5493,7 +5503,7 @@
 		(uuid "aa1e530f-f520-4cc4-8ae9-d9d80c690e07")
 	)
 	(label "{MCU_Serial_COM}"
-		(at 52.07 34.29 0)
+		(at 46.99 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5504,7 +5514,7 @@
 		(uuid "ab3e2253-7890-496b-a839-895084ccb89c")
 	)
 	(label "SPI1_CS"
-		(at 26.67 57.15 0)
+		(at 25.4 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5526,7 +5536,7 @@
 		(uuid "ae4bb043-bb19-4c62-82ae-5021f5d95917")
 	)
 	(label "SPI1_MOSI"
-		(at 26.67 52.07 0)
+		(at 25.4 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5559,7 +5569,7 @@
 		(uuid "bc111f6a-6def-46b1-8981-098f778c2a6c")
 	)
 	(label "I2C2_SCL"
-		(at 26.67 43.18 0)
+		(at 25.4 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5570,7 +5580,7 @@
 		(uuid "bd935f02-2f8f-442a-8f53-1741c72a2535")
 	)
 	(label "SPI1_MISO"
-		(at 26.67 54.61 0)
+		(at 25.4 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5581,7 +5591,7 @@
 		(uuid "cfc8cbf8-19bb-455c-bae9-957277d41bda")
 	)
 	(label "I2C2_SDA"
-		(at 26.67 40.64 0)
+		(at 25.4 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5855,7 +5865,7 @@
 	)
 	(hierarchical_label "{MCU_Serial_COM}"
 		(shape bidirectional)
-		(at 46.99 35.56 180)
+		(at 45.72 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5894,6 +5904,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -6812,6 +6823,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -6890,6 +6902,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -7482,6 +7495,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -7560,6 +7574,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -8808,6 +8823,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -9290,6 +9306,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -9882,6 +9899,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -10820,6 +10838,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -11569,6 +11588,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -11647,6 +11667,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -11850,6 +11871,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
