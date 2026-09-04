@@ -8,58 +8,10 @@
 		(title "Data Acquisition Board")
 		(date "2026-07-30")
 		(rev "A-01")
-		(company "Blue Signal")
-		(comment 1 "Engineer : Franklin Jordan NZOKOU DJOKO")
+		(company "Nexvantis")
+		(comment 1 "Engineer : Jordan NZOKOU")
 	)
 	(lib_symbols)
-	(text_box "^ Possible ameliorations :\n	- A better GPIO estender\n	- ISO1228 for digital input between 8.5V to 36V\n	- I2C/SPI isolation : Texas instrument\n	- ACSL-7210 for UART Isolation\n	- THVD4411 For RS232 and RS485 communication"
-		(exclude_from_sim no)
-		(at 194.31 128.27 0)
-		(size 38.1 13.5716)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 72 72 72 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 255 1)
-		)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.016 1.016)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "b113dfa8-bf9a-48c5-820d-32d30c14c254")
-	)
-	(text_box "^ Componants choice :\n	- TCAL9539 Digital I/O\n	- LED ws2812b\n	- RS232 IC with isolation\n	- Switcher"
-		(exclude_from_sim no)
-		(at 194.31 111.76 0)
-		(size 38.1 11.43)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 72 72 72 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 255 1)
-		)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.016 1.016)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "fabfa18f-47cd-434c-884d-e9403596f602")
-	)
 	(junction
 		(at 111.76 78.74)
 		(diameter 0)
@@ -541,16 +493,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "DAC1" input
-			(at 196.85 77.47 180)
-			(uuid "2c358bf3-6d35-4674-bb07-89f88a631417")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "{MCU_PWM}" input
