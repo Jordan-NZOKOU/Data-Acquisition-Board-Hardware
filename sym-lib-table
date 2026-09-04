@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "P_Interface") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/P_Interface.kicad_sym") (options "") (descr ""))
+	(lib (name "P_Phoenix_Connector") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/P_Phoenix_Connector.kicad_sym") (options "") (descr ""))
+	(lib (name "P_Isolator") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/P_Isolator.kicad_sym") (options "") (descr ""))
+	(lib (name "P_Sensor") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/P_Sensor.kicad_sym") (options "") (descr ""))
+	(lib (name "P_MCU") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbol/P_MCU.kicad_sym") (options "") (descr ""))
+)
