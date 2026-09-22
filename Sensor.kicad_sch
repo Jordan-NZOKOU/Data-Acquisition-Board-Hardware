@@ -8135,7 +8135,7 @@
 		(dnp no)
 		(uuid "65409fea-6c1a-4695-85db-b092189e5d64")
 		(property "Reference" "R58"
-			(at 100.838 115.57 0)
+			(at 100.33 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
