@@ -12,6 +12,30 @@
 		(comment 1 "Engineer : Jordan NZOKOU")
 	)
 	(lib_symbols)
+	(text_box "^ Board Name\n	DAQ-X1\n	DAQ Core"
+		(exclude_from_sim no)
+		(at 40.64 162.56 0)
+		(size 12.7 6.7441)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "eb1d1a1f-029b-4bb1-a374-97fd2f7cbb7e")
+	)
 	(junction
 		(at 111.76 78.74)
 		(diameter 0)
