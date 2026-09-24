@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Data_Acquisition_Board.kicad_prl",
+    "filename": "Data_Acquisition_Board_Hardware.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
