@@ -1,45 +1,19 @@
 (kicad_sch
-	(version 20260306)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "9.0")
 	(uuid "07236397-3ba4-47af-9809-3faac3a2aa49")
 	(paper "A3")
 	(title_block
-		(title "Project Achitecture")
+		(title "Project Architecture")
 		(date "2025-01-12")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
-	(arc
-		(start 208.915 265.43)
-		(mid 208.5404 266.3269)
-		(end 207.645 266.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "13e3bc56-4a98-40ef-8c39-3b21620a792f")
-	)
 	(rectangle
-		(start 81.28 219.71)
-		(end 170.18 271.78)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "25866798-365c-4c45-8d1c-f248c3f1b6a5")
-	)
-	(rectangle
-		(start 60.96 242.57)
-		(end 68.58 257.81)
+		(start 63.5 240.03)
+		(end 71.12 255.27)
 		(stroke
 			(width 0)
 			(type dot)
@@ -48,12 +22,12 @@
 		(fill
 			(type none)
 		)
-		(uuid "5e1e3f9b-9b2d-4630-97d0-720d2220eda6")
+		(uuid 1464a41a-66e0-4a27-970d-90484590ca03)
 	)
 	(arc
-		(start 207.645 266.7)
-		(mid 208.5369 267.0766)
-		(end 208.915 267.97)
+		(start 213.995 279.4)
+		(mid 212.2079 278.6485)
+		(end 211.455 276.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -61,12 +35,12 @@
 		(fill
 			(type none)
 		)
-		(uuid "787eda22-1bf9-4d1b-96b2-11995bb2af0f")
+		(uuid 18497c84-1b67-4b4a-966b-748e08b59a0f)
 	)
 	(arc
-		(start 211.455 281.94)
-		(mid 209.6679 281.1885)
-		(end 208.915 279.4)
+		(start 211.455 251.46)
+		(mid 212.1992 249.6657)
+		(end 213.995 248.92)
 		(stroke
 			(width 0)
 			(type default)
@@ -74,12 +48,12 @@
 		(fill
 			(type none)
 		)
-		(uuid "7c454724-851d-42c5-8823-df570c1fc5eb")
+		(uuid 4c8dfd0b-f5ad-488a-a688-0b048e49c276)
 	)
 	(arc
-		(start 208.915 254)
-		(mid 209.6592 252.2057)
-		(end 211.455 251.46)
+		(start 211.455 262.89)
+		(mid 211.0804 263.7869)
+		(end 210.185 264.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -87,95 +61,37 @@
 		(fill
 			(type none)
 		)
-		(uuid "fda911f3-adb3-4abb-981f-a877a93c831b")
+		(uuid 876a0a26-4a8b-41fa-803e-719bb793a518)
 	)
-	(text "Page 10"
-		(exclude_from_sim no)
-		(at 238.506 199.644 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 72 0 0 0.7490196078)
-			)
-			(justify right bottom)
-			(href "#5")
+	(rectangle
+		(start 83.82 217.17)
+		(end 172.72 269.24)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
 		)
-		(uuid "07fb45d4-879f-4cb6-8faf-c36c3d40d788")
+		(fill
+			(type none)
+		)
+		(uuid 8bb6a3a5-3d0d-4d43-9452-b661b969477d)
+	)
+	(arc
+		(start 210.185 264.16)
+		(mid 211.0769 264.5366)
+		(end 211.455 265.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid af574996-81f6-4b32-b229-7c4f65d0b97a)
 	)
 	(text "Page 4"
 		(exclude_from_sim no)
-		(at 268.986 169.926 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 255 229 191 1)
-			)
-			(justify right bottom)
-			(href "#4")
-		)
-		(uuid "1f865133-7307-49b1-a122-eb305d66ab9c")
-	)
-	(text "Page 6"
-		(exclude_from_sim no)
-		(at 314.198 149.352 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 28 100 45 1)
-			)
-			(justify right bottom)
-			(href "#5")
-		)
-		(uuid "2d353c61-305c-4282-9851-54c2de147418")
-	)
-	(text "Page 8"
-		(exclude_from_sim no)
-		(at 161.036 98.044 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 28 100 45 1)
-			)
-			(justify right bottom)
-			(href "#5")
-		)
-		(uuid "42b5d27f-51d3-428f-ad26-be567e2173ca")
-	)
-	(text "Page 5"
-		(exclude_from_sim no)
-		(at 315.468 99.568 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 28 100 45 1)
-			)
-			(justify right bottom)
-			(href "#5")
-		)
-		(uuid "b60ecde0-2a85-4071-a728-47148cd80779")
-	)
-	(text "Page 9"
-		(exclude_from_sim no)
-		(at 161.036 200.406 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 128 77 0 1)
-			)
-			(justify right bottom)
-			(href "#5")
-		)
-		(uuid "c3bb67ff-741c-4873-9d4d-aa1913f062f1")
-	)
-	(text "Page 4"
-		(exclude_from_sim no)
-		(at 237.236 148.082 0)
+		(at 239.776 145.542 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -185,11 +101,11 @@
 			(justify right bottom)
 			(href "#4")
 		)
-		(uuid "f04f874a-d252-4474-87f2-c34bbb094a4c")
+		(uuid "20351837-fe08-4fcc-a40c-4bc6e17a403a")
 	)
 	(text "Page 7"
 		(exclude_from_sim no)
-		(at 160.528 149.352 0)
+		(at 163.068 146.812 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -199,11 +115,151 @@
 			(justify right bottom)
 			(href "#5")
 		)
-		(uuid "fbec986a-34c7-4bbe-a45d-3848ed269e3f")
+		(uuid "3ed5f45e-ead6-4293-b992-1f8bf623cd07")
+	)
+	(text "Page 9"
+		(exclude_from_sim no)
+		(at 163.576 197.866 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 128 77 0 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "46556e9f-3281-4305-a6fd-26415f52dc98")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 318.008 97.028 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 28 100 45 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "794017d1-6910-49f6-9459-6f96c49f0508")
+	)
+	(text "Page 8"
+		(exclude_from_sim no)
+		(at 163.576 95.504 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 28 100 45 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "c1bc6a61-4773-4a53-88af-90bea0bdc9e5")
+	)
+	(text "Page 10"
+		(exclude_from_sim no)
+		(at 241.046 197.104 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 72 0 0 0.7490196078)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "cea5bab5-5225-4b8a-8fe3-67e03db05c2a")
+	)
+	(text "Page 6"
+		(exclude_from_sim no)
+		(at 316.738 146.812 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 28 100 45 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "d94f416a-18af-4785-b328-42d088a866a1")
+	)
+	(text_box "DESIGN NOTE:\nblablabla"
+		(exclude_from_sim no)
+		(at 29.21 254 0)
+		(size 21.59 11.43)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "04557ff0-f165-44a5-bec5-3bfef010178f")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 85.09 257.81 0)
+		(size 86.36 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "0c9d5f5c-a98c-4f10-94d7-8efcec16d6dd")
+	)
+	(text_box "DESIGN NOTE:\nblabla"
+		(exclude_from_sim no)
+		(at 115.57 245.11 0)
+		(size 21.59 15.24)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 165 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "19ad4c89-f3ef-4b21-8525-3eec888d4a33")
 	)
 	(text_box "LAYOUT NOTE:\nblablabla"
 		(exclude_from_sim no)
-		(at 34.29 204.47 0)
+		(at 36.83 201.93 0)
 		(size 26.67 11.43)
 		(margins 1.4525 1.4525 1.4525 1.4525)
 		(stroke
@@ -224,17 +280,17 @@
 			)
 			(justify left top)
 		)
-		(uuid "16f13ae8-8f75-490b-916f-85f31bc3a58f")
+		(uuid "59229691-2640-4c04-a781-76223fe002f8")
 	)
-	(text_box "DESIGN NOTE:\nblablabla"
+	(text_box "LAYOUT NOTE:\nblabla"
 		(exclude_from_sim no)
-		(at 26.67 256.54 0)
-		(size 21.59 11.43)
-		(margins 1.3525 1.3525 1.3525 1.3525)
+		(at 139.7 245.11 0)
+		(size 26.67 15.24)
+		(margins 1.4525 1.4525 1.4525 1.4525)
 		(stroke
-			(width 0.8)
+			(width 1)
 			(type solid)
-			(color 250 236 0 1)
+			(color 0 0 255 1)
 		)
 		(fill
 			(type none)
@@ -243,15 +299,17 @@
 			(font
 				(face "Arial")
 				(size 1.27 1.27)
-				(color 0 0 0 1)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
 			)
 			(justify left top)
 		)
-		(uuid "24375c9d-2284-4546-9617-af63d9d3705f")
+		(uuid "81e08448-0766-48f2-9558-3aba550c1a34")
 	)
 	(text_box "DESIGN NOTE:\nblabla"
 		(exclude_from_sim no)
-		(at 88.9 247.65 0)
+		(at 91.44 245.11 0)
 		(size 21.59 15.24)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -270,58 +328,11 @@
 			)
 			(justify left top)
 		)
-		(uuid "2cfecec5-ad12-403d-b38b-055249a633c6")
-	)
-	(text_box "Block Description"
-		(exclude_from_sim no)
-		(at 82.55 260.35 0)
-		(size 86.36 9.525)
-		(margins 1.9049 1.9049 1.9049 1.9049)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "4532d438-2a5f-44ee-aece-a13714c1da23")
-	)
-	(text_box "DESIGN NOTE:\nblabla"
-		(exclude_from_sim no)
-		(at 113.03 247.65 0)
-		(size 21.59 15.24)
-		(margins 1.3525 1.3525 1.3525 1.3525)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 255 165 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "5fd082bc-dc77-4c82-b722-a96be9bcf23e")
+		(uuid "ac8baaa8-e4a5-4fc2-a283-eb8904bfe00f")
 	)
 	(text_box "Description"
 		(exclude_from_sim no)
-		(at 189.865 264.16 0)
+		(at 192.405 261.62 0)
 		(size 17.145 5.08)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -340,7 +351,7 @@
 			)
 			(justify right top)
 		)
-		(uuid "971f0c48-6726-412d-badf-cee82cbffedd")
+		(uuid "b51d08d4-82bf-4ec7-92c4-d5680dec8106")
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
@@ -365,64 +376,39 @@
 		)
 		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
 	)
-	(text_box "LAYOUT NOTE:\nblabla"
-		(exclude_from_sim no)
-		(at 137.16 247.65 0)
-		(size 26.67 15.24)
-		(margins 1.4525 1.4525 1.4525 1.4525)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "f8d40a21-dd1a-4178-bcff-1db640f74718")
-	)
 	(polyline
 		(pts
-			(xy 208.915 267.97) (xy 208.915 279.4)
+			(xy 211.455 265.43) (xy 211.455 276.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b678fb1-fee7-4461-95f7-7f383f478fdc")
+		(uuid "229163c5-8d63-4c73-92fc-0215aadd66c2")
 	)
 	(polyline
 		(pts
-			(xy 208.915 265.43) (xy 208.915 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "903e49b2-1b5d-4317-a33b-adfda1594a88")
-	)
-	(polyline
-		(pts
-			(xy 60.96 252.73) (xy 48.26 256.54)
+			(xy 63.5 250.19) (xy 50.8 254)
 		)
 		(stroke
 			(width 0)
 			(type dot)
 			(color 255 0 0 1)
 		)
-		(uuid "b0cbc22a-e39e-4326-a422-fa424b0b9bde")
+		(uuid "5620f0c6-be2c-484b-83ae-a38b4e5f868b")
+	)
+	(polyline
+		(pts
+			(xy 211.455 262.89) (xy 211.455 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610430bf-e52e-4240-9dad-95869ddd786a")
 	)
 	(sheet
-		(at 101.6 165.1)
+		(at 180.34 162.56)
 		(size 63.5 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -434,113 +420,11 @@
 			(type solid)
 		)
 		(fill
-			(color 255 200 0 0.5019607843)
+			(color 255 44 44 0.7490)
 		)
-		(uuid "0bd0de2c-fb47-4165-b01f-7254d526226a")
-		(property "Sheetname" "MCU IOT"
-			(at 101.6 164.0709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 2.794 2.794)
-					(bold yes)
-					(color 0 0 194 0.9019607843)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MCU IOT.kicad_sch"
-			(at 101.6 203.7846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.778 1.778)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Data_Acquisition_Board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 177.8 63.5)
-		(size 63.5 88.9)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 1 101 252 0.6509803922)
-		)
-		(uuid "0d3a3d7c-e2b8-4bc2-b415-10f7714439ca")
-		(property "Sheetname" "MCU"
-			(at 177.8 62.4709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 2.794 2.794)
-					(bold yes)
-					(color 0 0 194 0.9019607843)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MCU.kicad_sch"
-			(at 177.8 152.9846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.778 1.778)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Data_Acquisition_Board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 177.8 165.1)
-		(size 63.5 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 44 44 0.7490196078)
-		)
-		(uuid "66b40153-558f-4357-86c8-be2f8d01bcca")
+		(uuid "12fd9232-9755-4d46-8bc5-bf3aabba5d0f")
 		(property "Sheetname" "Power"
-			(at 177.8 164.0709 0)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 180.34 161.5309 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -552,9 +436,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 177.8 203.7846 0)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 180.34 201.2446 0)
 			(effects
 				(font
 					(face "Arial")
@@ -564,7 +446,7 @@
 			)
 		)
 		(instances
-			(project "Data_Acquisition_Board"
+			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(page "10")
 				)
@@ -572,7 +454,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 114.3)
+		(at 256.54 111.76)
 		(size 63.5 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -584,113 +466,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 0.4509803922)
+			(color 128 255 128 0.5000)
 		)
-		(uuid "68bd8f9e-b099-4324-9f95-ccb8ca7442cd")
-		(property "Sheetname" "Serial Interface"
-			(at 101.6 113.2709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 2.794 2.794)
-					(bold yes)
-					(color 0 0 194 0.9019607843)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Serial Interface.kicad_sch"
-			(at 101.6 152.9846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.778 1.778)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Data_Acquisition_Board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 101.6 63.5)
-		(size 63.5 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 128 255 128 0.5)
-		)
-		(uuid "6fa7825f-bb85-498c-ba87-2040b70800f5")
-		(property "Sheetname" "Sensor"
-			(at 101.6 62.0264 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 2.794 2.794)
-					(bold yes)
-					(color 0 0 194 0.9019607843)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Sensor.kicad_sch"
-			(at 101.6 102.3878 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.778 1.778)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Data_Acquisition_Board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 254 114.3)
-		(size 63.5 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 128 255 128 0.5)
-		)
-		(uuid "beccf4fc-a204-484e-ae94-4e2209aa36ad")
+		(uuid "2328e1c7-765c-44a4-be74-70cc06878284")
 		(property "Sheetname" "In&Out - Command"
-			(at 254 113.2709 0)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 256.54 110.7309 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -702,9 +482,7 @@
 			)
 		)
 		(property "Sheetfile" "In&Out - Command.kicad_sch"
-			(at 254 152.9846 0)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 256.54 150.4446 0)
 			(effects
 				(font
 					(face "Arial")
@@ -714,7 +492,7 @@
 			)
 		)
 		(instances
-			(project "Data_Acquisition_Board"
+			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(page "6")
 				)
@@ -722,7 +500,7 @@
 		)
 	)
 	(sheet
-		(at 254 63.5)
+		(at 256.54 60.96)
 		(size 63.5 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -734,13 +512,11 @@
 			(type solid)
 		)
 		(fill
-			(color 128 255 128 0.5)
+			(color 128 255 128 0.5000)
 		)
-		(uuid "f06537ee-772d-44d3-8c50-e0ba41038c9c")
+		(uuid "359d567e-e3ae-48f2-b591-75bb7aa09775")
 		(property "Sheetname" "In&Out - ADC"
-			(at 254 62.4709 0)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 256.54 59.9309 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -752,9 +528,7 @@
 			)
 		)
 		(property "Sheetfile" "In&Out - ADC.kicad_sch"
-			(at 254 102.1846 0)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 256.54 99.6446 0)
 			(effects
 				(font
 					(face "Arial")
@@ -764,9 +538,193 @@
 			)
 		)
 		(instances
-			(project "Data_Acquisition_Board"
+			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 111.76)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 0.4510)
+		)
+		(uuid "36a4516e-766c-4af8-bfbd-9a47ecf037b9")
+		(property "Sheetname" "Serial Interface"
+			(at 104.14 110.7309 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Serial Interface.kicad_sch"
+			(at 104.14 150.4446 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 60.96)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "8072ef77-2eb5-49e2-be68-564c8a3f23e5")
+		(property "Sheetname" "Sensor"
+			(at 104.14 59.4864 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor.kicad_sch"
+			(at 104.14 99.8478 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 60.96)
+		(size 63.5 88.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 1 101 252 0.6510)
+		)
+		(uuid "8566d017-436e-49aa-b68c-18b49ef4128b")
+		(property "Sheetname" "MCU"
+			(at 180.34 59.9309 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 180.34 150.4446 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 162.56)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "aee029d3-cef7-411c-a549-c063d755aba3")
+		(property "Sheetname" "MCU IOT"
+			(at 104.14 161.5309 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU IOT.kicad_sch"
+			(at 104.14 201.2446 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "9")
 				)
 			)
 		)

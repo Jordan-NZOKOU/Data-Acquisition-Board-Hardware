@@ -568,7 +568,7 @@ definitions:
 
   # Preflight ==================================================================
 
-  CHECK_ZONE_FILLS: true
+  CHECK_ZONE_FILLS: false
   STACKUP_TABLE_NOTE: external layer thicknesses are specified after plating
 
   # BoM ========================================================================

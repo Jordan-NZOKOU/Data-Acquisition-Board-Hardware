@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20251024)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "10.0")
+	(generator_version "9.0")
 	(symbol "LSM6DSV"
 		(pin_names
 			(offset 1.016)
@@ -9,12 +9,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U?"
 			(at -15.24 15.748 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,211 +20,175 @@
 		)
 		(property "Value" "LSM6DSV"
 			(at -15.24 -17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "P_LGA:LGA-14_3X2.5_P0.83mm"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Accelerometer, Gyroscope, Temperature, 6 Axis Sensor I²C, I3C℠, SPI Output"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "MF" "STMicroelectronics"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "105180"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Package" "LGA-14 STMicroelectronics"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LSM6DSV16BXTR/STMicroelectronics/view-part/?ref=eda"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "PARTREV" "3"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LSM6DSV16BXTR/STMicroelectronics/view-part/?ref=snap"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "MP" "LSM6DSV16BXTR"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12241098&manufacturer=STMicroelectronics&part_name=LSM6DSV16BXTR&search_term=lsm6dsv"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "STMicroelectronics"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.74mm"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "PartNumber" "LSM6DSV16BXTR"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,291 +197,229 @@
 		)
 		(property "PackageReference" "LGA-14_3X2.5_P0.83mm"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Comment" "6-axis IMU Sensor"
 			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "LSM6DSV_0_0"
 			(pin bidirectional line
 				(at -20.32 -11.43 0)
 				(length 5.08)
-				(name "SDO/SA0"
-					(effects
+				(name "SDO/SA0" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "1"
-					(effects
+					))
+				(number "1" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin output line
 				(at 20.32 -2.54 180)
 				(length 5.08)
-				(name "INT1"
-					(effects
+				(name "INT1" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "4"
-					(effects
+					))
+				(number "4" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin power_in line
 				(at 20.32 10.16 180)
 				(length 5.08)
-				(name "VDD_IO"
-					(effects
+				(name "VDD_IO" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "5"
-					(effects
+					))
+				(number "5" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin power_in line
 				(at 20.32 -11.43 180)
 				(length 5.08)
-				(name "GND"
-					(effects
+				(name "GND" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "7"
-					(effects
+					))
+				(number "7" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin power_in line
 				(at 20.32 12.7 180)
 				(length 5.08)
-				(name "VDD"
-					(effects
+				(name "VDD" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "8"
-					(effects
+					))
+				(number "8" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin input line
 				(at -20.32 -3.81 0)
 				(length 5.08)
-				(name "CS"
-					(effects
+				(name "CS" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "12"
-					(effects
+					))
+				(number "12" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin input clock
 				(at -20.32 -6.35 0)
 				(length 5.08)
-				(name "SCL"
-					(effects
+				(name "SCL" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "13"
-					(effects
+					))
+				(number "13" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin bidirectional line
 				(at -20.32 -8.89 0)
 				(length 5.08)
-				(name "SDA"
-					(effects
+				(name "SDA" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "14"
-					(effects
+					))
+				(number "14" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 		)
 		(symbol "LSM6DSV_1_0"
 			(pin bidirectional line
 				(at 20.32 5.08 180)
 				(length 5.08)
-				(name "SDx"
-					(effects
+				(name "SDx" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "2"
-					(effects
+					))
+				(number "2" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin input clock
 				(at 20.32 2.54 180)
 				(length 5.08)
-				(name "SCx"
-					(effects
+				(name "SCx" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "3"
-					(effects
+					))
+				(number "3" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin input line
 				(at 20.32 -8.89 180)
 				(length 5.08)
-				(name "GND"
-					(effects
+				(name "GND" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "6"
-					(effects
+					))
+				(number "6" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin output line
 				(at 20.32 -5.08 180)
 				(length 5.08)
-				(name "INT2"
-					(effects
+				(name "INT2" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "9"
-					(effects
+					))
+				(number "9" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin output line
 				(at -20.32 7.62 0)
 				(length 5.08)
-				(name "OCS_Aux"
-					(effects
+				(name "OCS_Aux" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "10"
-					(effects
+					))
+				(number "10" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin input clock
 				(at -20.32 10.16 0)
 				(length 5.08)
-				(name "SDO_Aux"
-					(effects
+				(name "SDO_Aux" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "11"
-					(effects
+					))
+				(number "11" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 		)
 		(symbol "LSM6DSV_1_1"
@@ -546,12 +444,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -5.083 13.9782 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,175 +455,145 @@
 		)
 		(property "Value" "*"
 			(at -5.0801 -15.2404 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "P_Specific_Footprint:VISHAY_VEML6030_2X2X0.87"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Optical Sensor Ambient 550nm I2C 6-SMD, No Lead"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "TAPE_REEL" "YES"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "MF" "Vishay"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Package" "SMD-6 Vishay Semiconductor"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "VOLUME" "MOQ: 3000"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VEML6030/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "MP" "VEML6030"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=493148&manufacturer=Vishay&part_name=VEML6030&search_term=veml6030"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/VEML6030/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "PartNumber" "VEML6030"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,35 +602,29 @@
 		)
 		(property "PackageReference" "6-SMD_2.0 × 2.0 × 0.87 mm"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Vishay Semiconductor"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Comment" "Light Sensor"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "VEML6030_0_0"
@@ -782,9 +640,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -11.43 11.43) (xy -11.43 -11.43)
-				)
+				(pts (xy -11.43 11.43) (xy -11.43 -11.43))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -794,9 +650,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -11.43 -11.43) (xy 11.43 -11.43)
-				)
+				(pts (xy -11.43 -11.43) (xy 11.43 -11.43))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -828,9 +682,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -10.414 -0.381) (xy -10.033 -0.762)
-				)
+				(pts (xy -10.414 -0.381) (xy -10.033 -0.762))
 				(stroke
 					(width 0.127)
 					(type default)
@@ -840,9 +692,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -10.16 -1.27) (xy -8.89 -1.27)
-				)
+				(pts (xy -10.16 -1.27) (xy -8.89 -1.27))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -852,9 +702,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -10.16 -5.08) (xy -8.89 -5.08)
-				)
+				(pts (xy -10.16 -5.08) (xy -8.89 -5.08))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -864,9 +712,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -10.033 -0.2032) (xy -10.414 -0.381)
-				)
+				(pts (xy -10.033 -0.2032) (xy -10.414 -0.381))
 				(stroke
 					(width 0.127)
 					(type default)
@@ -876,9 +722,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -10.033 -0.762) (xy -10.3886 0.1016)
-				)
+				(pts (xy -10.033 -0.762) (xy -10.3886 0.1016))
 				(stroke
 					(width 0.127)
 					(type default)
@@ -888,9 +732,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -10.033 -0.762) (xy -10.033 -0.2032)
-				)
+				(pts (xy -10.033 -0.762) (xy -10.033 -0.2032))
 				(stroke
 					(width 0.127)
 					(type default)
@@ -900,9 +742,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -9.779 -0.381) (xy -9.398 -0.762)
-				)
+				(pts (xy -9.779 -0.381) (xy -9.398 -0.762))
 				(stroke
 					(width 0.127)
 					(type default)
@@ -912,9 +752,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -9.398 -0.2032) (xy -9.779 -0.381)
-				)
+				(pts (xy -9.398 -0.2032) (xy -9.779 -0.381))
 				(stroke
 					(width 0.127)
 					(type default)
@@ -924,9 +762,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -9.398 -0.762) (xy -9.7536 0.1016)
-				)
+				(pts (xy -9.398 -0.762) (xy -9.7536 0.1016))
 				(stroke
 					(width 0.127)
 					(type default)
@@ -936,9 +772,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -9.398 -0.762) (xy -9.398 -0.2032)
-				)
+				(pts (xy -9.398 -0.762) (xy -9.398 -0.2032))
 				(stroke
 					(width 0.127)
 					(type default)
@@ -948,9 +782,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -8.89 2.032) (xy -8.89 -1.27)
-				)
+				(pts (xy -8.89 2.032) (xy -8.89 -1.27))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -960,9 +792,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -8.89 -1.27) (xy -8.89 -3.556)
-				)
+				(pts (xy -8.89 -1.27) (xy -8.89 -3.556))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -972,9 +802,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -8.89 -1.27) (xy -7.62 -1.27)
-				)
+				(pts (xy -8.89 -1.27) (xy -7.62 -1.27))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -984,9 +812,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -8.89 -3.81) (xy -10.16 -1.27)
-				)
+				(pts (xy -8.89 -3.81) (xy -10.16 -1.27))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -996,9 +822,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -8.89 -5.08) (xy -8.89 -3.81)
-				)
+				(pts (xy -8.89 -5.08) (xy -8.89 -3.81))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1008,9 +832,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -7.62 -1.27) (xy -8.89 -3.81)
-				)
+				(pts (xy -7.62 -1.27) (xy -8.89 -3.81))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1020,9 +842,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -7.62 -3.81) (xy -10.16 -3.81)
-				)
+				(pts (xy -7.62 -3.81) (xy -10.16 -3.81))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1032,9 +852,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -7.62 -5.08) (xy -8.89 -5.08)
-				)
+				(pts (xy -7.62 -5.08) (xy -8.89 -5.08))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1044,9 +862,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -6.35 8.89) (xy 3.81 8.89)
-				)
+				(pts (xy -6.35 8.89) (xy 3.81 8.89))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1056,9 +872,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -6.35 5.08) (xy -6.35 8.89)
-				)
+				(pts (xy -6.35 5.08) (xy -6.35 8.89))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1068,9 +882,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -6.35 3.81) (xy -1.27 3.81)
-				)
+				(pts (xy -6.35 3.81) (xy -1.27 3.81))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1080,9 +892,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -6.35 2.032) (xy -8.89 2.032)
-				)
+				(pts (xy -6.35 2.032) (xy -8.89 2.032))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1092,9 +902,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -6.35 2.032) (xy -6.35 3.81)
-				)
+				(pts (xy -6.35 2.032) (xy -6.35 3.81))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1104,9 +912,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -6.35 0) (xy -6.35 2.032)
-				)
+				(pts (xy -6.35 0) (xy -6.35 2.032))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1116,9 +922,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -6.35 -1.27) (xy -1.27 -1.27)
-				)
+				(pts (xy -6.35 -1.27) (xy -1.27 -1.27))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1128,9 +932,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -6.35 -5.08) (xy -6.35 -1.27)
-				)
+				(pts (xy -6.35 -5.08) (xy -6.35 -1.27))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1140,9 +942,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -6.35 -6.35) (xy -1.27 -6.35)
-				)
+				(pts (xy -6.35 -6.35) (xy -1.27 -6.35))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1152,9 +952,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -6.35 -10.16) (xy -6.35 -6.35)
-				)
+				(pts (xy -6.35 -10.16) (xy -6.35 -6.35))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1164,9 +962,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -1.27 5.08) (xy -6.35 5.08)
-				)
+				(pts (xy -1.27 5.08) (xy -6.35 5.08))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1176,9 +972,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -1.27 5.08)
-				)
+				(pts (xy -1.27 3.81) (xy -1.27 5.08))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1188,9 +982,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -1.27 3.81) (xy 3.81 3.81)
-				)
+				(pts (xy -1.27 3.81) (xy 3.81 3.81))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1200,9 +992,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -1.27 0) (xy -6.35 0)
-				)
+				(pts (xy -1.27 0) (xy -6.35 0))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1212,9 +1002,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy -1.27 0)
-				)
+				(pts (xy -1.27 -1.27) (xy -1.27 0))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1224,9 +1012,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy 3.81 -1.27)
-				)
+				(pts (xy -1.27 -1.27) (xy 3.81 -1.27))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1236,9 +1022,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -1.27 -5.08) (xy -6.35 -5.08)
-				)
+				(pts (xy -1.27 -5.08) (xy -6.35 -5.08))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1248,9 +1032,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy -1.27 -5.08)
-				)
+				(pts (xy -1.27 -6.35) (xy -1.27 -5.08))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1260,9 +1042,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy 3.81 -6.35)
-				)
+				(pts (xy -1.27 -6.35) (xy 3.81 -6.35))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1272,9 +1052,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 8.89) (xy 3.81 5.08)
-				)
+				(pts (xy 3.81 8.89) (xy 3.81 5.08))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1284,9 +1062,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 5.08) (xy -1.27 5.08)
-				)
+				(pts (xy 3.81 5.08) (xy -1.27 5.08))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1296,9 +1072,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 3.81) (xy 3.81 1.778)
-				)
+				(pts (xy 3.81 3.81) (xy 3.81 1.778))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1308,9 +1082,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 1.778) (xy 3.81 0)
-				)
+				(pts (xy 3.81 1.778) (xy 3.81 0))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1320,9 +1092,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 1.778) (xy 6.096 1.778)
-				)
+				(pts (xy 3.81 1.778) (xy 6.096 1.778))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1332,9 +1102,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 0) (xy -1.27 0)
-				)
+				(pts (xy 3.81 0) (xy -1.27 0))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1344,9 +1112,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 -1.27) (xy 3.81 -3.302)
-				)
+				(pts (xy 3.81 -1.27) (xy 3.81 -3.302))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1356,9 +1122,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 -3.302) (xy 3.81 -5.08)
-				)
+				(pts (xy 3.81 -3.302) (xy 3.81 -5.08))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1368,9 +1132,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 -3.302) (xy 6.096 -3.302)
-				)
+				(pts (xy 3.81 -3.302) (xy 6.096 -3.302))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1380,9 +1142,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 -5.08) (xy -1.27 -5.08)
-				)
+				(pts (xy 3.81 -5.08) (xy -1.27 -5.08))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1392,9 +1152,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 -6.35) (xy 3.81 -10.16)
-				)
+				(pts (xy 3.81 -6.35) (xy 3.81 -10.16))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1404,9 +1162,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 3.81 -10.16) (xy -6.35 -10.16)
-				)
+				(pts (xy 3.81 -10.16) (xy -6.35 -10.16))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1416,9 +1172,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 6.096 7.62) (xy 10.16 7.62)
-				)
+				(pts (xy 6.096 7.62) (xy 10.16 7.62))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1428,9 +1182,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 6.096 1.778) (xy 6.096 7.62)
-				)
+				(pts (xy 6.096 1.778) (xy 6.096 7.62))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1440,9 +1192,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 6.096 -3.302) (xy 6.096 1.778)
-				)
+				(pts (xy 6.096 -3.302) (xy 6.096 1.778))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1452,9 +1202,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 6.096 -7.62) (xy 6.096 -3.302)
-				)
+				(pts (xy 6.096 -7.62) (xy 6.096 -3.302))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1464,9 +1212,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 10.16 7.62) (xy 10.16 -7.62)
-				)
+				(pts (xy 10.16 7.62) (xy 10.16 -7.62))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1476,9 +1222,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 10.16 -7.62) (xy 6.096 -7.62)
-				)
+				(pts (xy 10.16 -7.62) (xy 6.096 -7.62))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1488,9 +1232,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 11.43 11.43) (xy -11.43 11.43)
-				)
+				(pts (xy 11.43 11.43) (xy -11.43 11.43))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1500,9 +1242,7 @@
 				)
 			)
 			(polyline
-				(pts
-					(xy 11.43 -11.43) (xy 11.43 11.43)
-				)
+				(pts (xy 11.43 -11.43) (xy 11.43 11.43))
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1667,110 +1407,86 @@
 			(pin power_in line
 				(at -17.78 -7.62 0)
 				(length 5.08)
-				(name ""
-					(effects
+				(name "~" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "1"
-					(effects
+					))
+				(number "1" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin bidirectional line
 				(at -17.78 0 0)
 				(length 5.08)
-				(name ""
-					(effects
+				(name "~" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "2"
-					(effects
+					))
+				(number "2" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin output line
 				(at -17.78 7.62 0)
 				(length 5.08)
-				(name ""
-					(effects
+				(name "~" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "3"
-					(effects
+					))
+				(number "3" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin bidirectional line
 				(at 17.78 -7.62 180)
 				(length 5.08)
-				(name ""
-					(effects
+				(name "~" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "4"
-					(effects
+					))
+				(number "4" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin input clock
 				(at 17.78 0 180)
 				(length 5.08)
-				(name ""
-					(effects
+				(name "~" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "5"
-					(effects
+					))
+				(number "5" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 			(pin power_in line
 				(at 17.78 7.62 180)
 				(length 5.08)
-				(name ""
-					(effects
+				(name "~" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
-				(number "6"
-					(effects
+					))
+				(number "6" (effects
 						(font
 							(size 1.016 1.016)
 						)
-					)
-				)
+					))
 			)
 		)
 		(embedded_fonts no)
