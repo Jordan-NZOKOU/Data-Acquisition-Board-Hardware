@@ -1,7 +1,7 @@
 (footprint "XCVR_ESP32-C6-WROOM-1U-N8"
-	(version 20260206)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "10.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -5.825 -10.635 0)
@@ -48,7 +48,6 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9 -9.6)
 		(end 9 -9.6)
@@ -568,9 +567,7 @@
 	)
 	(embedded_fonts no)
 	(model "C:/Users/nzofra/Documents/DOC_Perso/Kicad/Libraries/3D/ESP32-C6-WROOM-1U-N4.step"
-		(offset
-			(xyz 0 0 0)
-		)
+		(offset (xyz 0 0 0))
 		(scale
 			(xyz 1 1 1)
 		)

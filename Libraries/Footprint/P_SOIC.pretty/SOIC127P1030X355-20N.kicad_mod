@@ -1,7 +1,7 @@
 (footprint "SOIC127P1030X355-20N"
-	(version 20260206)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "10.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -2.495 -7.277 0)
@@ -48,7 +48,6 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.75 -6.415)
 		(end 3.75 -6.415)
@@ -333,9 +332,7 @@
 	)
 	(embedded_fonts no)
 	(model "C:/Users/nzofra/Documents/DOC_Perso/Kicad/Libraries/3D/SOIC127P1030X355-20N.step"
-		(offset
-			(xyz 0 0 0)
-		)
+		(offset (xyz 0 0 0))
 		(scale
 			(xyz 1 1 1)
 		)
