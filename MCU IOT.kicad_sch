@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
-		(at 113.03 15.24 0)
+		(at 113.03 13.97 0)
 		(size 72.39 12.7)
 		(margins 4.4999 4.4999 4.4999 4.4999)
 		(stroke

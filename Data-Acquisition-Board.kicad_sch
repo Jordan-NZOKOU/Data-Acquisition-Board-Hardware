@@ -1768,7 +1768,7 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "11")
+					(page "12")
 				)
 			)
 		)
@@ -1813,7 +1813,7 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "12")
+					(page "13")
 				)
 			)
 		)
@@ -1914,4 +1914,163 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "KDT_Template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBQIN0gAAZjbiHw1DxoQdkhu4SlrN1N63GPBeHRt8zEk5wcMrKwOFmxKQ1iAGEAZAA/f37n
+				t5cU9Zi8uoeYk7v3nfnsztlkPunrvOGXBLsGj5Wl1nxOF7MI6zxW1qKPS7nsI9wLAEBA8AF1XE7r
+				QIFUFjE4fqjnu1+ONd5UB0rpVWd9vXPJcagACAhKjwgUb5g9hTsUx535ylq1ovQlt/ci3H2JyfxR
+				j8OrqXNOy/AG6zQwETjnJI67xuGTNLmXoI6tTzVStT8zmcykVwHQ9dbQt/XL/aEo9X2Ee6bbedn6
+				05JGPNS5fr/4g3++qDHHmu+wjwEci/Bp+zQGuFkqFY5e5O2+h7izOeW6+mUgENRaBnrqJlyFu2we
+				TeidyxzC3lWzWmm9sDpP3kbRKBQzPEYtZmWabW2tqPFmrtVprUkfcUAkKDF/x5hTob5rTJI7pJ9V
+				+vPn8z0GAUF1OGDzqrTcIh/3cfqlnB6fRvm27VHBLIuNPX94zA0DBjI8baKwMoqB32KDTDxMp1FI
+				+n7Ivciur9M4T7tgWMW6vheR362YlG4SrdsiXKNSb+scXGVj6E0ucZ1Zlp0QX7dJJJPFpF8PhoD5
+				qPGlMyUykpQkGcZQhEiRsWIdQjAQEOEQhEEQBEEaBMEIIEYZJSACiAhBAiIgBglsrAfuF2FTDLQU
+				w31HH2W1pMCb1AC94TvVEUHbmEXrZKQHEbS4Ji58xdHuCneAJ4wm5IxjwMuXVDQtZkQYRXIupd5x
+				ozx2IXxhonPQpnqoPAEvKGymUrIbP0MAocJqR50HXdWJ+5y/+XS+Tk721sfoIWNk7BEWObR+ExX2
+				g3G+7fEkwzeKdEg1P7xMyLauCFegFFsPP0hdwRbj7tJoGN/JxDrrz6xCYA6aO79BdB8lvdSDTB+J
+				XwkAbVPX8DtUW6hDi5C12+7Yhg0Puto1HGPrPZtpTdSZU5DABldO7tuXgvqMJx7KOkCzvl/XsEP4
+				SOFuC+677R677aSiX6MRKSfwS2B+Gy7QgId9b2qlKm1LxsmPnAePy+noKK8mmbMW2eH5DqAxYTKK
+				eIMoVvCUnSFbzQKwvVdcYOsjRxIRXHl44D4fFetJm5tMnMJ5njlLyWsPDiRhw8H9yUggqiD2bbub
+				DoVDXdxXYrF5eTW8yQKHum3iDXl18KjpqJoAgS7ACWlDlm6XdTPlIfxdNhqM2olgAwRgy1YviZcp
+				n5ADRQwBK2pdz3FywlzQQvc1W3n9xTBdDOP7nqqpNtzrLCAzNCDYevQDM/mLPIOXK2mvOxOGimpB
+				wHgq5NEH1pvNOGG7KXGol9dndUNl6tbipXd0PMVQ9X70qAQktOoe6UAtyA+yAgS/iRj+nyJr8GW3
+				uBRPgg/IN5qvxwS6JDdMgtaZxKv2qP+seBtvXOzWpMaiqQI=|
+			)
+			(checksum "15AD0B116C82B9389675BA78142F5783")
+		)
+		(file
+			(name "KDT_Template_GIT.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDBISUiAJbkciHw1DxoQdkhu4SlrN1Ny3vWivnovoxb7HgFkT3FYaFiUxpnAGUAagBY8z32
+				8unT7/z2c5oem1f3EXNz974vnd01mcxpfZ0z/Jpix+CSwmpFX9PJDMI6lxRW1cejfPYQ7gUAICDo
+				eDo+aWWYxCmTWCw70/PdL8caZyhDrdWy1L7e+eT4UwAEBCcHJJJ3zJxCY33N1qdPn+9yj2S5L09h
+				laUmfc39PQh7f2Izh9Pj8WIspbTKPqtKAxKBcy7iuGs8vgiT++nZYPbrJrLY08vlQqtVAHS9MfUx
+				++fuTHX6HsL90jFqYfYpJgrxUWf7/eIOfvqkxjz5xJZqmlY6hB4XiUgUtL41ZByDcIkLt4XIUUCw
+				q5Z5ve8j3mw+sax+F5rNSp6kA7sK99GqWr3zmT/4s6xmbbXWZWnp4ybbpF7ZXxW7Kg2zMcxSU3kz
+				3yzFKlr/YDggJjJ/x1gDTt81Ns0dAQGlKUDRAW4OMewaB01zXsf33LAGw0UtW08OEnahpt8JrbKS
+				I9wmIcc5wKvCrrLnEJeZkV3i4tskiUqrlxgquIfks3jbRKRvx9wKzQq9rfu2ynXZq+tbIfndCVor
+				F9k8DtIxbK0f5zU6kFvoTIEDqPGlMyUykpQkGcaRCCHQMA3hejIwEBMBGQRCEAbhMQSBCBBhBgmI
+				kBJiBIQIBgU11AOopTyKxOLFUjKCTHXT1jKuCjcge8gIgYLlHYW1QdAhsPvdrJLVYgOvrQJ6412C
+				EUibmQ3o+JiDfLa47QhfdzS+wjEgN6PDrOQYLPKVFa0Rs8hFEZdLGc+wUZFdRvs5SALmT4UCeBGu
+				x5Si3NkzAlBHWJWpD6HIfqj252+dzu7JE9/YGJ1miIw9LCJX02+xsF+Km9veTlp8QwOHlHzhf5Br
+				M67wBEo5efiBc6UpximmaeCck2nPOX4iDIE5tTufMbpfKXnqgafqo1f/QHupa4SHagnqjAhZb9sd
+				C2KTgTK85sXY8J6gaSXqyyNIEYNmTtAbEAUrOWc8zzpwNvXqzqVLWGkUbdmxXXIDu3RReX9BY7ic
+				4C3Bh20YRgOsHs5dBqlTM1uW9XIf9/59hLPvKHOTy/N2zEe81xhLHxklsyHUHXgKtiHVmrVmfedb
+				lFZGipgYN8DggHWZ0w+8nHVuOOKko2idNQblaXeI9d/HCEWiWr9iZdZ3Oi1p6EK85ptnVqi5TvqO
+				JDYENgzrWNO3IZmKV5djCYldymmHYg34cP8uh8xCbXYwAgKwvVZvh1cwn8gGCkwCBmm1nkPBCYOP
+				VrzbbFX4F7d0sxv/P1VObdjYWYZnhIEO6dUPxUQucnMv9+XR/0og6joLwuS5kFcfil43xk/qbsxC
+				vbw+HRp6Xregll6Z8Zy0anE0MwGbrMpZeqk/5UMgg1CbqPJ/i+zml6bjIp70Asgx2vjjBN2Uu+Wg
+				mSWLVXvULyfu7F0QdntSowmuAg==|
+			)
+			(checksum "8941CA914EBE9384706DD5839D821B88")
+		)
+		(file
+			(name "KDT_Template_PCB_A3.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCTIfUiAEbldCHgWD3QESom6dsY64NghKh3HGpA9mCxMw/zaM5ghpEREwJoAGUAbQCvH+sM
+				7tClS9/a7tGy/EWLN/hazHtnzihv0OdqOR3fj7biZns+NNR5SQftzjU9vqGhXtM/dcd9+l0AAAKC
+				EWn/KK+DtbFu5zfhyHKdt9WP/2M4zDkxKqnjfEf9pQIgIBhFpk3HgldUCC+KGZy+0enSpescZrAT
+				Zo4b6kUNFrZitrjpPR9fvJ/lD1oPlVJemmvXaqAiaK1R+jd+0FGeu0dSqFKfHIpWlxwOR06sANg4
+				e6ZX6mMeWdPyffrN2VVilbqsqJMG8aW+7Y/epXdwHQN/7vhUbtu2QnxeN5lQFnI6PWj6Tb/qPo6x
+				6TCXC2RiovV8gx/KuoJh2zIQiFkvba48CuQCyXSWmcD5jrf0FoxulE6KZVSuLF2Fq8xM82zW7No8
+				uVZqsEJ7NUdlveR0xAGRsDrX9z/oYvnGAQGBYbrUKL2wTVLqFNMuKamGk2SeaRSBkcDMkHyQT0Xw
+				wyGTGJ0jaNvK6vFxla/rHpfsqlm47/fhbWjZhmHhKIprm9nmW3QRikXjcRUUtiMxLzbs8ziIhctk
+				Gc02tpmOtlkh5+wmnNdJIA06LZ3ngFwCgQuo8aFDJTKSlCQZxpEIIdAwLJ16QjAQF+EQhEEQBAEa
+				BKEIkFFECYgAIkKMQAQyFZiUD7FkwG+XZZ30NV7tHvGauQAlRZYUc1LlBbHyWVnYYtdbMuZIU0A6
+				LIrQ3Sc/H0HI4YzvW6DM1ks8uZvRm4fJEae1vWjOnQ11IeQWu41PjpaW1lgFUlQazFDnANfvKWmb
+				mk8si6gUGipKS4rAf8gl95IjHVObCa0yB7yIo8VKQe43GQKoI6wq1B2ojBq9rfmr02k/Obo3Ikbj
+				DMjY8wXkSP3WI+yHxi1hjyf93lDQISV/+ATItnqE71AKysMPKlfexLi2NBv+PplfZ+bTxxCYW3Pn
+				sx4dVHk79UBQpfGrMNBz6hpwQ/U1dYAI2aTUHVuxyUAJXaNmrHVPZ1oQdeY5j7pBnEP1JqQgSqaM
+				p1pnb9YT6RryEIZCEGwhftf9YWeU1PhbNFrLCXYJFGzDNhrIsPJNXZrStiyU/Djy4FA53Y5Sb5I5
+				fCd9L9//GlNfRlE2iEr4TjEYUtWsjTVacYnsfzlyiOD6xoPi3MSscdlcRsQJ7+SZD0lKe74sC4gc
+				3AuOxFtNiROt63TqaXXxv4xdRyuouSZpjmQbmhtydTYpkYM1JYguxRLihPzRTh79zGP9u5Rz/Fp2
+				mEwDsEXr3gBvoD7xZBUBBNzeNeIAxMOMaM00pa0C/UWZbkbimbwKoTYk6CyFM/RBee8xCIxSGDmS
+				lztv7yV8YOgcg9jzdFe/oWG8M8BF+eZt+b5PfDKz6R/IQk96NcHTl1afoGskECCrYqQ8dQK/CZQQ
+				ShNt/i+R3fzSXC6uk4IB8gqDPZHdr8ktsqAZTxZoe9Evp9x/daEybaBGOVwF|
+			)
+			(checksum "71E684AB8303FD5A18B3D5E197034553")
+		)
+		(file
+			(name "KDT_Template_PCB_A4.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCVIQ0jAHaldSHw1DxoQdkhu4RFto0FbDgDXXm7GkaHWHhWsWVhcbJiUxpqAGcAbQAac6z5
+				Fvv48+d3fntJUY/Jq7uIObl735jP7pxN5pO+zht+yUvX4LGy1JrP6ZkswjqPlbXo41Iu+wj3AgAQ
+				EHxAHZfT2qgLlTP4Mn6o57tfjjXeVBul9Kqzvt655DhUAAQEpUd0yVwxewoBXWOS3CJ9rdKfP5/v
+				cYuZcWO+slatKH3JDb4If19iMofUY/Fq6pzTyj6zTgMTgXNO4rhrLD5Jk3sJ6tj6tCNV+xODwUx6
+				FQBdbw19W7/cH4pS30e4Y7qdl60/LWnERZ3r94s/+OdnAovGxEvoTS5xnZqmnbjw8yCQCGLSr1vG
+				sQifvLBLXDzKZNKgF3m/7yLubC65rn4THEetldHTF2lMGhUPpAa9c5lDGLyqViutF1bnCfQknYRi
+				2WPUYpam2dbWihpv5l2d1pr0uY0zUJn8HWPOhPoBQUV/ZrValzapxVn6tV6ZtV3U0j2wxzYuA4k7
+				8QgboYnw24bNq9KS06/kxAg7Seh5jAlmWWzsOcRjVmTYJQF2kYOlUewSIjxHBLR8nYSk74fcCO0K
+				v64BdhUMq1jXt5Lhdx8mpR6k+7xHQ1Ep6H0BgQqoAaIzJTKSlCQZxpEIIdAwCp3mAUIwEBjhEIRB
+				EAQBGgShCBBRRAmIACJCjEAEMiQm5QOzZIDgLhs7KZA4xYQfiTQpykvRIKrQKFYSiOFAOzpPb8mN
+				iB/SbVFU786zwhJ0DEB811Vltl7i50AZvWkYGRFaW4vQ3KFAF/LMYpbx8WhpFhpzgNFKX/z3HCT9
+				zpLe1cxiWfRVoiGhtMgIrCsuqF4YsSO1mR4qC+CFhdullG9vYgggNFhlV2eh8nhAV/JnkM6IyWVd
+				EYy28VNnj2LJ2fZblNjvivMgHk9q3uCzITV/+NTItvoIY7OUweGHhCsWexx1mkumOJkjz67nEhCY
+				Y8vnQwddQsk19RArnPzqP1CqdQ24pDoaOyNC1jlpx7LYMFHRrqEbC9kzkVaxzvzneTco4/i4filY
+				yZnhudSZlfW4ruEq4VO0wJa9dxFxdoWkor4P40pO8EmAWxhW1gDsmpnaVmW2ZSryW8qDTznBNcpp
+				krnDlvkqvi03JmZBcTeI8h2eQjAk0McqG3HFPdr8OaIQwfGyB8jzE7A2NcwxJk58H8/wkES0zwNI
+				aOPgrnAkDmhavG7tRqfLsi7SK7/ZMGzNe7JzpNsY25BeR6USOEDTXHYhlhBkpc528/G/PNS/S7ic
+				rBUlBoACbNPae8DLtE8kqYoAAk5vHc8h5wlLRCvbkWw17S+G6WYaX36qGGoDBJ3FMCOfKO89BuCb
+				lEVOqZfLxSYOkEDUwQpC5CnafmPzed8Qv/JdtYXw8vtsbOhy3QJEemXGEzxX49DKEAAgqMhSQQ2S
+				H8fshm6ij/9bZDe/NJuLPqnWdLLR6jwW0FW5pQA0L8kCby/6BZT7vy462J7UWISr|
+			)
+			(checksum "C9EB0A18D7F05CC7AA9D81C508BCE8B5")
+		)
+		(file
+			(name "KDT_Template_PCB_GIT_A4.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WAGI00kAAYneiHw1DxoQdkhu4RFtrkG2HCGNOHRtnYL7CQqa7TAM3A5FxptAGwAcgAf/PQz
+				GnOs+Rb7+PTpd357SVGPyau7iDm5e9+Yz+6cTea0vs4bfsmwa/BouOqkz+mZLMI6j4Zr1selXPYR
+				7gUAICD4gDou6dSokMoZHI4f6vnul2ONNwat1lpZal/vXHIcKgACgtIjCjNXzJ5CCCqTv2PMoVDf
+				NSbJLdbPbH369Pket5gZN+YN17QGSl9yfy/C3peYzCD1WLwaSymd2GPzNDAROOckjrvG4pM0uZeg
+				zmW/biR7PcVgMLRWBUDXW1P/sl/uD1Wp7yPcMf2i1WWfXqQRF3W23y8OdydorVxk8zhIx7C1fpzX
+				6CjcQm9yiS3Nsux0AD0uEpEoaH2rYRyL8IkDt0XIVSiUrlbk9b6LuLP5pKr6XWQWO3mSjtJZuI/O
+				avXOZQ7hr7KZtdVWlqWnj5tsk2phb9XLmplmX5c1UOPNfLP0mrT+QTsEAYEhK6/je24cDllCMQkd
+				lM0Rgl2jPsWsnVVG6zxc9a2tsKlV9bJBrLe0AwYS9wICdqCJ8Jpm0crWktPvhE7s5AC3CchxDoo1
+				L2vsGcRjZmBWuPg2SWJm1QpBBfeQfBdvm5D0/ZBbkVWgt3XfZrEsa3V9LRkegRKo0aVDJTKSpCDJ
+				MAaRCCHQMAoh9kIwEBPhEIRCEAThOQSBCBBxRgmIUBJiBEKCISmZHs5UhkLePD0UZn1shTFbDc4D
+				Z6XVuu9s4eZvVw07KYR4cIcfiZQU5UXRCFVIYCXnGALRbtri1rYRMYd0sCh67laxRhR0INz4Xthk
+				tiTEK6YGvakjmRFUWz9q1iE1C/lgMa9jfHppHxizwEilN5jnHOD6VSXdUtMhs4iJQ8OhtNwR+B9d
+				2J1wScC5vPIEvMBuZE8hbkKNAIQuq27qJFTei8tq/kalMzX5BNcEo4EM4ux5DDnbfsvl/RbcTO/t
+				JPINKwZSVgqvbq6tq8IoK8X28IP6is4e50gThW9Mpojz9AknBOai7XzT6HJKRqiHiALdXr0ABVzX
+				IB/VhurgCNnhSj5W2EYARX9NnLHxntXp6fTlW1L3YDMn6WuIghWcGp5rnftRz6hzcRHezI9bCGw3
+				XMEuSFSS77oRKidoJWjxGCZvgI+HdjcmFVSyy/K374vYv1lwZjaKEXL5Nvq3yFuVsWSuoGQcQm2S
+				SSEISUNfK2xE+9ZoA6ZIe8ftBhxMK0vjw4ifYU4L4pT2aPmrr+U5JMSKQGO4JZFT0eJaNi516NnU
+				RfiKbR5aoeY62XUksSGwIV2nj74WJtN2dZmfkMRS4XbHlekHkd6F47PUtsPEXIAtW70x3g/8BAZQ
+				eBrYfUQ4x6sRbL6txM4Dq42/GKSbdfPFqaLUBlTJkgFjDIgj/KCsiJOh/M/LNU70vXJQdKSCKHku
+				zAsKRS8l4xx1PwbgXh4+m8N05mPhcr4y9wl/q+FpqQNAfxUp1alBy8Mgg1DvqPJ/Z9q9L43iopdU
+				ayFJY+WO3XMdbpENzSxZLNqjfoFyg9MFEbaBGuVwFQ==|
+			)
+			(checksum "6C7D99B4E549420C99D537FC75D6904F")
+		)
+		(file
+			(name "KDT_Template_PCB_GIT_A5.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDtIi0kABamdyHw1DxoQdkhu4RFtrkG2AAxLQYzSsYtsOMVRPYUh4WKTWlrAGoAcAD0Lxpz
+				rPkme/n06Xd++zlNj82rO4m5uXvfls7umkzmtL7OGX7NsWNwSWG1oq/plwzCOpcUVtXHo3z2EO4F
+				ACAg6Hg6Pmm1TeOUL3gsO9Pz3S/HGmeordZqWWpf73xy/CkAAoKTAxovl8ycQhhrJNN3jU1zk/U1
+				W58+fb7LTV7KbXkKqyw16Wvu8EH4+xObWZwekxdjKaVV9llVGpAInHMRx11j8kWY3E/PBrNfOZHF
+				nlosFlqtAqDrjamP2T93Z6rT9xDulo5RC7NPMVGIkzrb7xd38Adf9/AWttaw+xiepFPoTD6xpZqm
+				lQzi10EgkQStb7eMYxAudSKnGLuJROJVy7zfdxJvNgctq1+FZrPSF/EkHqULaVWt3vnMHxxaVrO2
+				WuuytBR2IAfWK/urYlelYTaGWWoqb+acpVhF6xs2w2G65O8BAQGlnbfxPTMMGiIBjg0J1xhFj1Gf
+				ZtZWllbhHtdfhmo3D7kVD9ETSYTftotatp6afkFaZaWGyIFi1zUkV4VdZc8iLvMiu0ZFyEUQlVav
+				UUx0jkhY+ThQpG/H3AnNEj/OCznKddmr60u58LsRtNYOwgWBE6jhoUMlMpKkIMkwBpEIIdAwCyGt
+				A0IwEBPhEIRBEAThOYSBCBDiDBIQIpCEGAEhgkFiMj0+Uw71utJ0ZlMZqulQlFIOOQz229qVQ5Vt
+				qg0VtqetM+D4CuKb/Y14mhOyUHyNKDnwkGIP6RsYsnMizB8dsCauj424BFB+N37tNIVkttjEiyaM
+				3lT4YATaViYEOtPMQp5fzHiMT1laeWM9cJHSYZZwDkb9CpIW1KSWWeTTo+GstFwR+Mdc2E6yJOBw
+				XjECXkwosqdMNvGMAMhRVm/qxyi3F7H9+atOJ3ryeK8pRjcyibKHGOQ4+2007BfDJXRvJwrfOGwg
+				ZafwfnLt7ynMr1LChx9yV/T1OFea+Pw2mbqcwc9dFZhD4/N1oKNWoqAe+Kq3vcoHCnNdY0uq143D
+				gZBdi+NY7jZsVNTXcBmb3FOYDkpfnkeKHCxxrNyAUJCCU8dzqnNY1Ed0LjzheNx9i7R2F63YoYm6
+				+Asx7uUEeQn0FMOaN2DxQb4xkrozy2VJle/b2r+NcOYPSkrI5TlIHijvW2MJx0DJ4BAqDiZFTchp
+				pYBifeHbF5uWIr2O221yAK3skA/1OMs5lRCnHEXLbPEiD5eEWD5ojEQSPPQm9sB6QKfIgC7lq3ap
+				CPKa6uTcQcRaYNO4TpW+AxAmIeoCLCEySjnb3aNfHhN5F9oeqbY9JuYBbNnuzfA+1Sc+gkLTwOmj
+				wzmqRrCubj16R6wc/2IpXeKa/5yqVW3cliwdMMacMsIDKhQS+cmHe7ksa5aAD7TuBhB9n1f+gkKR
+				dwxw7ri/ADBeXp/NGTqztBA/XwH7+X/Vx+k2AzpMFWNKVivxMxFZoNjRzv/VtNtfmoeLWBL5gqSN
+				9R3b5/q4hSE0s2SxbI/6BcoNri680jbU+IGr|
+			)
+			(checksum "85BE1519CA298A97E09123E149C0628F")
+		)
+	)
 )

@@ -91,7 +91,7 @@
 	)
 	(text "Page 4"
 		(exclude_from_sim no)
-		(at 239.776 145.542 0)
+		(at 241.808 113.792 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -130,6 +130,20 @@
 			(href "#5")
 		)
 		(uuid "46556e9f-3281-4305-a6fd-26415f52dc98")
+	)
+	(text "Page 4"
+		(exclude_from_sim no)
+		(at 241.808 148.082 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 0 0 255 0.7490196078)
+			)
+			(justify right bottom)
+			(href "#4")
+		)
+		(uuid "6dd0432d-7a7d-406b-97d1-3d990a8c3e17")
 	)
 	(text "Page 5"
 		(exclude_from_sim no)
@@ -448,7 +462,7 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "10")
+					(page "11")
 				)
 			)
 		)
@@ -494,7 +508,7 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "6")
+					(page "8")
 				)
 			)
 		)
@@ -540,7 +554,7 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "5")
+					(page "7")
 				)
 			)
 		)
@@ -586,7 +600,53 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "7")
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 128.27)
+		(size 63.5 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 1 101 252 0.6510)
+		)
+		(uuid "6ab43cd8-dabb-49a4-aa94-5d820261f9f9")
+		(property "Sheetname" "MCU Expander"
+			(at 180.34 126.7964 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU Expander.kicad_sch"
+			(at 180.34 150.6478 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "5")
 				)
 			)
 		)
@@ -632,14 +692,14 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "8")
+					(page "10")
 				)
 			)
 		)
 	)
 	(sheet
 		(at 180.34 60.96)
-		(size 63.5 88.9)
+		(size 63.5 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -654,7 +714,7 @@
 		)
 		(uuid "8566d017-436e-49aa-b68c-18b49ef4128b")
 		(property "Sheetname" "MCU"
-			(at 180.34 59.9309 0)
+			(at 180.34 59.4864 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -666,7 +726,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 180.34 150.4446 0)
+			(at 180.34 116.3578 0)
 			(effects
 				(font
 					(face "Arial")
@@ -724,7 +784,7 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "9")
+					(page "6")
 				)
 			)
 		)

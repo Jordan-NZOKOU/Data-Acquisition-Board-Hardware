@@ -1030,6 +1030,14 @@
       "MCU"
     ],
     [
+      "6ab43cd8-dabb-49a4-aa94-5d820261f9f9",
+      "MCU Expander"
+    ],
+    [
+      "aee029d3-cef7-411c-a549-c063d755aba3",
+      "MCU IOT"
+    ],
+    [
       "359d567e-e3ae-48f2-b591-75bb7aa09775",
       "In&Out - ADC"
     ],
@@ -1044,10 +1052,6 @@
     [
       "8072ef77-2eb5-49e2-be68-564c8a3f23e5",
       "Sensor"
-    ],
-    [
-      "aee029d3-cef7-411c-a549-c063d755aba3",
-      "MCU IOT"
     ],
     [
       "12fd9232-9755-4d46-8bc5-bf3aabba5d0f",

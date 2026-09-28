@@ -2568,7 +2568,7 @@
 	)
 	(text_box "5V SMPS Regulator"
 		(exclude_from_sim no)
-		(at 25.4 91.2997 0)
+		(at 25.4 92.5697 0)
 		(size 165.1 7.7603)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
