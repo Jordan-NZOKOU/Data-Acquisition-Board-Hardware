@@ -8,6 +8,8 @@ outputs:
 - name: @NAME@
   comment: '@COMMENT@'
   type: pcb_print
+  depends:
+    - name: 'csv_drill_table'
   category: '@DIR@'
   dir: '@DIR@'
   options:
