@@ -4887,7 +4887,7 @@
 	(text_box "Debug"
 		(exclude_from_sim no)
 		(at 227.33 97.6497 0)
-		(size 53.34 7.7603)
+		(size 52.07 7.7603)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)
@@ -5898,16 +5898,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 54.61) (xy 129.54 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d3a64f6-f720-442e-95d9-4e65120bfca5")
-	)
-	(wire
-		(pts
 			(xy 80.01 118.11) (xy 83.82 118.11)
 		)
 		(stroke
@@ -6789,7 +6779,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 54.61) (xy 116.84 54.61)
+			(xy 118.11 53.34) (xy 118.11 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7763,7 +7753,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 54.61) (xy 129.54 54.61)
+			(xy 118.11 48.26) (xy 118.11 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7920,16 +7910,6 @@
 			(type default)
 		)
 		(uuid "dabd0e8c-a747-4877-b661-176c9fef53d8")
-	)
-	(wire
-		(pts
-			(xy 116.84 54.61) (xy 116.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dabda097-58da-405e-9b65-033dd8ced604")
 	)
 	(wire
 		(pts
@@ -9740,14 +9720,14 @@
 	(symbol
 		(lib_id "Power_Protection:PESD3V3L5UY")
 		(at 119.38 74.93 180)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "07691cba-3cd2-4bf8-9d89-83e3ffb666a1")
 		(property "Reference" "D?"
-			(at 116.332 74.93 0)
+			(at 116.078 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9848,7 +9828,7 @@
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/8566d017-436e-49aa-b68c-18b49ef4128b"
 					(reference "D?")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
@@ -13106,7 +13086,7 @@
 	(symbol
 		(lib_id "Power_Protection:PESD3V3L5UY")
 		(at 119.38 72.39 180)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13214,7 +13194,7 @@
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/8566d017-436e-49aa-b68c-18b49ef4128b"
 					(reference "D?")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -13295,7 +13275,7 @@
 		(dnp no)
 		(uuid "80e345eb-00c3-40b2-b836-7ccefca63603")
 		(property "Reference" "C?"
-			(at 165.608 53.34 90)
+			(at 165.1 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14445,7 +14425,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 129.54 53.34 0)
+		(at 118.11 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14453,7 +14433,7 @@
 		(dnp no)
 		(uuid "b31cad71-ba57-463a-a6cb-d48a894497be")
 		(property "Reference" "#PWR?"
-			(at 129.54 57.15 0)
+			(at 118.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14462,7 +14442,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 129.54 49.53 0)
+			(at 118.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14471,7 +14451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 53.34 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14480,7 +14460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 53.34 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14489,7 +14469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 129.54 53.34 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14822,7 +14802,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PESD3V3L5UY")
-		(at 124.46 54.61 180)
+		(at 118.11 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14830,7 +14810,7 @@
 		(dnp no)
 		(uuid "bdc1de6f-c5f2-4916-812b-f72a788780e3")
 		(property "Reference" "D?"
-			(at 124.206 52.578 0)
+			(at 116.078 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14838,7 +14818,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 124.46 50.8 0)
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14847,7 +14827,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 124.46 59.69 0)
+			(at 123.19 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14856,7 +14836,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf"
-			(at 124.46 49.53 0)
+			(at 113.03 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14865,7 +14845,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 3.3V, Common Anode, SOT-363"
-			(at 124.46 54.61 0)
+			(at 118.11 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14874,7 +14854,7 @@
 			)
 		)
 		(property "PartNumber" "PESD3V3L5UY"
-			(at 125.984 56.896 0)
+			(at 120.396 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14882,7 +14862,7 @@
 			)
 		)
 		(property "PackageReference" "SOT-363"
-			(at 124.46 54.61 0)
+			(at 118.11 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14891,7 +14871,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 124.46 54.61 0)
+			(at 118.11 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14900,7 +14880,7 @@
 			)
 		)
 		(property "Comment" "ESD Diode"
-			(at 124.46 54.61 0)
+			(at 118.11 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15393,14 +15373,14 @@
 	(symbol
 		(lib_id "Power_Protection:PESD3V3L5UY")
 		(at 119.38 78.74 180)
-		(unit 1)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d379bf8d-e17a-44ec-b681-94d27c27d842")
 		(property "Reference" "D?"
-			(at 116.332 78.74 0)
+			(at 116.078 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15501,7 +15481,7 @@
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/8566d017-436e-49aa-b68c-18b49ef4128b"
 					(reference "D?")
-					(unit 1)
+					(unit 5)
 				)
 			)
 		)
@@ -16017,14 +15997,14 @@
 	(symbol
 		(lib_id "Power_Protection:PESD3V3L5UY")
 		(at 119.38 67.31 180)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "df5696a1-f953-422f-a046-086f47a33c29")
 		(property "Reference" "D?"
-			(at 119.888 65.278 0)
+			(at 116.078 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16125,7 +16105,7 @@
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/8566d017-436e-49aa-b68c-18b49ef4128b"
 					(reference "D?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -16197,7 +16177,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 55.88 0)
+		(at 118.11 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16205,7 +16185,7 @@
 		(dnp no)
 		(uuid "e43a1981-282e-4517-899c-4787d491890c")
 		(property "Reference" "#PWR?"
-			(at 116.84 62.23 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16214,7 +16194,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 59.69 0)
+			(at 118.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16222,7 +16202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 55.88 0)
+			(at 118.11 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16231,7 +16211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 55.88 0)
+			(at 118.11 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16240,7 +16220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 55.88 0)
+			(at 118.11 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
