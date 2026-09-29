@@ -7583,6 +7583,14 @@
 			)
 		)
 	)
+	(via
+		(at 75 145)
+		(size 0.55)
+		(drill 0.25)
+		(layers "F.Cu" "B.Cu")
+		(net 0)
+		(uuid "1285c196-b810-4671-adb5-df040e416550")
+	)
 	(group "kibot_image_png_3d_viewer_angled_top"
 		(uuid "04d08607-677d-4f8a-bfdd-849fe27e04a9")
 		(members "7475ec0d-efe9-4437-8754-ed4d70b95384")
