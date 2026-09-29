@@ -6127,6 +6127,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ".\\"
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8998bc63-8839-4810-ae33-2713f5ce43d6")
 		)
@@ -7609,6 +7618,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ".\\"
+			(at 237.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "ced99dcd-1b05-4d3c-8602-65ad6e370fa8")
 		)
@@ -8138,6 +8156,15 @@
 			)
 		)
 		(property "Comment" "3-in-1 sensor, humidity, pressure, temperature"
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
 			(at 110.49 66.04 0)
 			(effects
 				(font
@@ -8907,6 +8934,15 @@
 			)
 		)
 		(property "Comment" "Light Sensor"
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
 			(at 63.5 128.27 0)
 			(effects
 				(font
@@ -10277,6 +10313,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Library" ".\\"
+			(at 231.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"

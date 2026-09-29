@@ -5881,7 +5881,7 @@
 		(dnp no)
 		(uuid "0c07e479-82cf-40db-9371-c209c7ea2b8c")
 		(property "Reference" "J20"
-			(at 147.828 135.89 90)
+			(at 147.066 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7077,24 +7077,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NPN"
-			(at 135.89 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 135.89 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PartNumber" "BC846"
 			(at 143.51 133.858 0)
 			(effects
@@ -7122,6 +7104,15 @@
 			)
 		)
 		(property "Comment" "NPN"
+			(at 135.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
 			(at 135.89 132.08 0)
 			(effects
 				(font
@@ -7409,6 +7400,15 @@
 			)
 		)
 		(property "Comment" "LED"
+			(at 252.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
 			(at 252.73 48.26 0)
 			(effects
 				(font
@@ -7963,6 +7963,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ".\\"
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c3b973cf-0f6d-4466-baeb-d6308a0f2631")
 		)
@@ -8337,6 +8346,15 @@
 		)
 		(property "Comment" "ESD Diode"
 			(at 67.31 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
+			(at 67.31 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9121,6 +9139,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ".\\"
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0a3bc6b-9fec-4fd9-88f7-3d9db0018154")
 		)
@@ -9540,6 +9567,15 @@
 		)
 		(property "Comment" "ESD Diode"
 			(at 67.31 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
+			(at 67.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,6 +10260,15 @@
 		)
 		(property "Comment" "ESD Diode"
 			(at 27.94 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
+			(at 27.94 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11385,6 +11430,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ".\\"
+			(at 69.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "cc1f89fe-0bc9-40fb-9041-62f4d588ff64")
 		)
@@ -11496,6 +11550,15 @@
 		)
 		(property "Comment" "ESD Diode"
 			(at 69.85 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
+			(at 69.85 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12509,24 +12572,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NPN"
-			(at 204.47 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 204.47 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PartNumber" "BC846"
 			(at 212.09 133.858 0)
 			(effects
@@ -12554,6 +12599,15 @@
 			)
 		)
 		(property "Comment" "NPN"
+			(at 204.47 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
 			(at 204.47 132.08 0)
 			(effects
 				(font

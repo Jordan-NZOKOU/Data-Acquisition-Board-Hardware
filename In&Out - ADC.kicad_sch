@@ -6076,7 +6076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}\\Simulation_SPICE.sp"
 			(at 171.45 63.5 0)
 			(effects
 				(font
@@ -7655,7 +7655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}\\Simulation_SPICE.sp"
 			(at 140.97 124.46 0)
 			(effects
 				(font
@@ -10019,7 +10019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}\\Simulation_SPICE.sp"
 			(at 194.31 124.46 0)
 			(effects
 				(font
@@ -10542,7 +10542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}\\Simulation_SPICE.sp"
 			(at 194.31 148.59 0)
 			(effects
 				(font
@@ -10816,7 +10816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}\\Simulation_SPICE.sp"
 			(at 171.45 86.36 0)
 			(effects
 				(font
@@ -11440,7 +11440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}\\Simulation_SPICE.sp"
 			(at 140.97 148.59 0)
 			(effects
 				(font
@@ -11754,7 +11754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}\\Simulation_SPICE.sp"
 			(at 128.27 74.93 0)
 			(effects
 				(font
@@ -12072,7 +12072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}\\Simulation_SPICE.sp"
 			(at 95.25 139.7 0)
 			(effects
 				(font
@@ -12516,7 +12516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}\\Simulation_SPICE.sp"
 			(at 232.41 86.36 0)
 			(effects
 				(font
@@ -12856,7 +12856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD10_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}\\Simulation_SPICE.sp"
 			(at 232.41 63.5 0)
 			(effects
 				(font

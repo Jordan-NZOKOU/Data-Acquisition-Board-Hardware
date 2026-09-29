@@ -6930,7 +6930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 210.566 141.986 0)
 			(effects
 				(font
@@ -7000,6 +7000,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 208.28 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 208.28 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10855,6 +10871,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ".\\"
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "29d7c350-d620-4051-8c97-e4d71ffb5e9b")
 		)
@@ -11867,6 +11892,15 @@
 			)
 		)
 		(property "Comment" "RS232 Transceiver"
+			(at 207.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
 			(at 207.01 66.04 0)
 			(effects
 				(font

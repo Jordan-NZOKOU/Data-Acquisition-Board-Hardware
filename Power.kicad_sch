@@ -4010,6 +4010,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ".\\"
+			(at 237.49 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f1adfdcb-8e09-4241-900c-15ae5cf8e0f3")
 		)
@@ -4630,6 +4639,15 @@
 			)
 		)
 		(property "Comment" "Power Jack Vin"
+			(at 52.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
 			(at 52.07 53.34 0)
 			(effects
 				(font
@@ -6924,6 +6942,15 @@
 			)
 		)
 		(property "Comment" "5V LDO Regulator"
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
 			(at 101.6 114.3 0)
 			(effects
 				(font
