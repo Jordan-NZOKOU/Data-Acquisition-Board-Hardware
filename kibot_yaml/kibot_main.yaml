@@ -557,7 +557,7 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: Data Acquisition Board
+  PROJECT_NAME: Data-Acquisition-Board
   BOARD_NAME: DAQ Core
 
   COMPANY: Nexvantis
