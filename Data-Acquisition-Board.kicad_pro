@@ -864,6 +864,30 @@
       {
         "netclass": "Power 3V3",
         "pattern": "+3.3V"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/In&Out - Command/Input_Relay_N"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/In&Out - Command/Input_Relay_P"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/In&Out - Command/Output_Relay1_P"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/In&Out - Command/Output_Relay1_N"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/In&Out - Command/Output_Relay2_P"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/In&Out - Command/Output_Relay2_N"
       }
     ]
   },
