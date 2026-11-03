@@ -872,6 +872,24 @@
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8566d017-436e-49aa-b68c-18b49ef4128b/"/>
       <tstamps>471c94a8-68b0-4f12-a5ef-8a9e74d86264</tstamps>
     </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8566d017-436e-49aa-b68c-18b49ef4128b/"/>
+      <tstamps>4c01c21d-e5b7-4782-8587-ecdd9f298ab0 dee16ca7-19d2-4632-9f6a-a98ef9a36d4e fedc4a8c-9fc2-45b0-9c82-43572804f786 2800c0eb-c7b7-4ab2-954d-167d5e2f4ce9</tstamps>
+    </comp>
     <comp ref="U1">
       <value>*</value>
       <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
@@ -1728,6 +1746,24 @@
       <property name="ki_fp_filters" value="SW?DIP?x4*"/>
       <sheetpath names="/Project Architecture/MCU - Expander/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/6ab43cd8-dabb-49a4-aa94-5d820261f9f9/"/>
       <tstamps>0b4efede-f190-46ba-964c-3eb0c7d8903f</tstamps>
+    </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MCU - Expander"/>
+      <property name="Sheetfile" value="MCU - Expander.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/MCU - Expander/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/6ab43cd8-dabb-49a4-aa94-5d820261f9f9/"/>
+      <tstamps>dfd153fc-a8b2-4761-8dc1-b8e0651adb95 37b07a3d-6390-4008-8b9e-16368c74ac55</tstamps>
     </comp>
     <comp ref="U2">
       <value>TCAL9539</value>
@@ -2608,6 +2644,24 @@
       <sheetpath names="/Project Architecture/MCU - IOT/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/aee029d3-cef7-411c-a549-c063d755aba3/"/>
       <tstamps>fb770e53-e13f-43ef-8736-85f99900b8cd</tstamps>
     </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="MCU - IOT"/>
+      <property name="Sheetfile" value="MCU - IOT.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/MCU - IOT/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/aee029d3-cef7-411c-a549-c063d755aba3/"/>
+      <tstamps>763c272b-554f-44eb-9b8c-22ebef546221 521f908a-4890-4d1b-b8c9-bd2955626b95</tstamps>
+    </comp>
     <comp ref="U3">
       <value>*</value>
       <footprint>P_MCU:XCVR_ESP32-C6-WROOM-1U-N8</footprint>
@@ -2777,7 +2831,7 @@
       <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="SOT?363*"/>
       <sheetpath names="/Project Architecture/Analog - Input 3V3/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/359d567e-e3ae-48f2-b591-75bb7aa09775/"/>
-      <tstamps>f7c773e9-174b-4e73-a83d-6b41213e761a 4a44c01e-21e1-43f5-957a-ca2749480e3e 6d8acf23-68a8-4f40-a1b7-fb5fe7e546bd b3b7a7bd-f3d4-4673-acee-eb009223da6e 0ac2ddd6-aed8-4e67-a3f1-f42972cbaa73</tstamps>
+      <tstamps>b3b7a7bd-f3d4-4673-acee-eb009223da6e 4a44c01e-21e1-43f5-957a-ca2749480e3e f7c773e9-174b-4e73-a83d-6b41213e761a 6d8acf23-68a8-4f40-a1b7-fb5fe7e546bd 0ac2ddd6-aed8-4e67-a3f1-f42972cbaa73</tstamps>
     </comp>
     <comp ref="D12">
       <value>3.3V</value>
@@ -3006,6 +3060,24 @@
       <sheetpath names="/Project Architecture/Analog - Input 3V3/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/359d567e-e3ae-48f2-b591-75bb7aa09775/"/>
       <tstamps>ca64c24a-db1b-41f0-aad1-74c34c236e89</tstamps>
     </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Analog - Input 3V3"/>
+      <property name="Sheetfile" value="Analog - Input 3V3.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Analog - Input 3V3/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/359d567e-e3ae-48f2-b591-75bb7aa09775/"/>
+      <tstamps>2a29e9bc-9505-4a29-824f-0ca8d36316ae 2d6c28ab-7f99-436b-9fd8-12be8e22bbf9 a827dcc4-4785-4416-8341-58f0c9f45b51 0c85c7ae-e091-4912-8842-dcb1e8a3bb86</tstamps>
+    </comp>
     <comp ref="U5">
       <value>G=1</value>
       <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
@@ -3038,7 +3110,7 @@
       <property name="ki_keywords" value="quad opamp"/>
       <property name="ki_fp_filters" value="SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm*"/>
       <sheetpath names="/Project Architecture/Analog - Input 3V3/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/359d567e-e3ae-48f2-b591-75bb7aa09775/"/>
-      <tstamps>c3053f84-ebe3-4236-83e3-e751524475c5 d9f63eda-670b-442c-8da3-d0b452c83a7e ee073194-23fb-4219-afc4-429120128c73 eff545c4-527f-4875-80b5-19775f3a4dcf 39023b10-bab8-45ca-be04-8674bfab3567</tstamps>
+      <tstamps>eff545c4-527f-4875-80b5-19775f3a4dcf d9f63eda-670b-442c-8da3-d0b452c83a7e ee073194-23fb-4219-afc4-429120128c73 c3053f84-ebe3-4236-83e3-e751524475c5 39023b10-bab8-45ca-be04-8674bfab3567</tstamps>
     </comp>
     <comp ref="C34">
       <value>100nF</value>
@@ -3518,6 +3590,24 @@
       <sheetpath names="/Project Architecture/Analog - Input 5V &amp; 10V/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d7e4d26c-9536-468d-83dc-57f9224d2d21/"/>
       <tstamps>3bc978a3-5850-4d2b-a68c-895b3051ef79</tstamps>
     </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Analog - Input 5V &amp; 10V"/>
+      <property name="Sheetfile" value="Analog - Input 5V &amp; 10V.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Analog - Input 5V &amp; 10V/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d7e4d26c-9536-468d-83dc-57f9224d2d21/"/>
+      <tstamps>a0674be9-c868-4f60-94ae-b5c028884f87 9adec70a-a636-4b30-897b-6301d1916670 a06a47ca-e7c7-4cc6-966e-eb5e1b72040d 63d72f19-74ea-4905-8116-fc5ee95927e2</tstamps>
+    </comp>
     <comp ref="U6">
       <value>G=1</value>
       <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
@@ -3550,7 +3640,7 @@
       <property name="ki_keywords" value="quad opamp"/>
       <property name="ki_fp_filters" value="SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm*"/>
       <sheetpath names="/Project Architecture/Analog - Input 5V &amp; 10V/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d7e4d26c-9536-468d-83dc-57f9224d2d21/"/>
-      <tstamps>ddba7472-896a-4ee8-b630-33855f4efbe7 b33cd65d-de27-4b43-b856-38ffea5c082e c0d84cd1-efaf-4ade-b4a8-d1ed3e679de5 d4e98806-bbc2-49b8-80b4-edf2adfdb729 5a8aa64e-0f1a-47cb-825d-bd5b39fb8628</tstamps>
+      <tstamps>d4e98806-bbc2-49b8-80b4-edf2adfdb729 c0d84cd1-efaf-4ade-b4a8-d1ed3e679de5 ddba7472-896a-4ee8-b630-33855f4efbe7 b33cd65d-de27-4b43-b856-38ffea5c082e 5a8aa64e-0f1a-47cb-825d-bd5b39fb8628</tstamps>
     </comp>
     <comp ref="D23">
       <value>5V3</value>
@@ -3630,7 +3720,7 @@
       <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="SOT?363*"/>
       <sheetpath names="/Project Architecture/Digital - In&amp;Out/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2328e1c7-765c-44a4-be74-70cc06878284/"/>
-      <tstamps>f1afec22-b83a-4553-bed7-2774d69c7900 c1e72011-c24f-453c-a75f-774bd20ffcc6 b59530d0-b948-4078-9899-5a17af93f08a c872f990-ac14-4970-ad1f-39e8737fba48 26ff78fd-7db6-487e-a150-ccad2ff5fbad</tstamps>
+      <tstamps>c1e72011-c24f-453c-a75f-774bd20ffcc6 b59530d0-b948-4078-9899-5a17af93f08a f1afec22-b83a-4553-bed7-2774d69c7900 c872f990-ac14-4970-ad1f-39e8737fba48 26ff78fd-7db6-487e-a150-ccad2ff5fbad</tstamps>
     </comp>
     <comp ref="D28">
       <value>3.3V</value>
@@ -3658,7 +3748,7 @@
       <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="SOT?363*"/>
       <sheetpath names="/Project Architecture/Digital - In&amp;Out/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2328e1c7-765c-44a4-be74-70cc06878284/"/>
-      <tstamps>c8182b0c-98a8-468d-85ab-0fdac451c642 9d97fc7e-2fd7-4561-a71f-e77e9393d7da 7a476a1e-65cd-4ee3-84d9-a11fe58396c8 c7125029-8954-4a90-ba9b-9f59d06cefbc 5be4943d-9aa4-43f8-9406-9b09830c372a</tstamps>
+      <tstamps>c8182b0c-98a8-468d-85ab-0fdac451c642 9d97fc7e-2fd7-4561-a71f-e77e9393d7da c7125029-8954-4a90-ba9b-9f59d06cefbc 7a476a1e-65cd-4ee3-84d9-a11fe58396c8 5be4943d-9aa4-43f8-9406-9b09830c372a</tstamps>
     </comp>
     <comp ref="J14">
       <value>*</value>
@@ -3963,6 +4053,24 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Digital - In&amp;Out/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2328e1c7-765c-44a4-be74-70cc06878284/"/>
       <tstamps>56af9c1b-1bb3-43f7-b934-644455c11bab</tstamps>
+    </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Digital - In&amp;Out"/>
+      <property name="Sheetfile" value="Digital - In&amp;Out.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Digital - In&amp;Out/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2328e1c7-765c-44a4-be74-70cc06878284/"/>
+      <tstamps>e77620ac-daad-4b2a-bcb6-36d953ec283e 642422a9-2ca2-417c-bc99-f740ad14dccd fc89f720-c735-472e-b7de-9de740129163 1843cc41-d6d9-4f3b-a2fa-bf3662e37906</tstamps>
     </comp>
     <comp ref="D24">
       <value>*</value>
@@ -4413,6 +4521,24 @@
       <sheetpath names="/Project Architecture/Command - High Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d260e39d-d0df-406a-9ec8-7c64bc216518/"/>
       <tstamps>265f8e43-7830-4051-9c34-a5abae438749</tstamps>
     </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Command - High Power"/>
+      <property name="Sheetfile" value="Command - High Power.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Command - High Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d260e39d-d0df-406a-9ec8-7c64bc216518/"/>
+      <tstamps>bd5cee33-920d-45bf-b384-b9b4ce2b9486 7277f79f-83f2-4a24-af7d-1a539575adc3</tstamps>
+    </comp>
     <comp ref="C38">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
@@ -4490,6 +4616,24 @@
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Project Architecture/Command - LED/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/3c2f2e28-7046-4a61-bae9-1f11361ea8be/"/>
       <tstamps>e023f2a8-c6e1-48a7-9bbb-45591e956d8d</tstamps>
+    </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Command - LED"/>
+      <property name="Sheetfile" value="Command - LED.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Command - LED/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/3c2f2e28-7046-4a61-bae9-1f11361ea8be/"/>
+      <tstamps>9d7d8905-8672-443c-8e0f-5659db694b8e</tstamps>
     </comp>
     <comp ref="C39">
       <value>100nF</value>
@@ -4840,6 +4984,24 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Interface - RS232 &amp; RS485/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/36a4516e-766c-4af8-bfbd-9a47ecf037b9/"/>
       <tstamps>304dc7b8-48d8-4f98-8a60-87535efddfec</tstamps>
+    </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Interface - RS232 &amp; RS485"/>
+      <property name="Sheetfile" value="Interface - RS232 &amp; RS485.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Interface - RS232 &amp; RS485/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/36a4516e-766c-4af8-bfbd-9a47ecf037b9/"/>
+      <tstamps>36ea23af-ecc3-4fd9-918d-61cad1b643c2 1ac274cd-ddc2-425a-8d14-242fcf33317d</tstamps>
     </comp>
     <comp ref="U7">
       <value>*</value>
@@ -5709,6 +5871,24 @@
       <sheetpath names="/Project Architecture/Sensor - Environment/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8072ef77-2eb5-49e2-be68-564c8a3f23e5/"/>
       <tstamps>54043155-8d29-4e5f-8c69-fd3661e4312e</tstamps>
     </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Sensor - Environment"/>
+      <property name="Sheetfile" value="Sensor - Environment.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Sensor - Environment/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8072ef77-2eb5-49e2-be68-564c8a3f23e5/"/>
+      <tstamps>f5d6a5e8-ce51-457b-bf9b-8cd7d664dc58</tstamps>
+    </comp>
     <comp ref="U9">
       <value>*</value>
       <footprint>Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering</footprint>
@@ -5881,6 +6061,24 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Sensor - IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e7894138-f2cb-4895-8e1c-f8fd63cc5ab0/"/>
       <tstamps>abb2b7c5-7fe4-4a66-bd34-eee9fa691c00</tstamps>
+    </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Sensor - IMU"/>
+      <property name="Sheetfile" value="Sensor - IMU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Sensor - IMU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e7894138-f2cb-4895-8e1c-f8fd63cc5ab0/"/>
+      <tstamps>d85161fa-327e-48db-ac7a-5aaecdd7d324 d6a754c8-63e9-481c-a4ed-105b2ee4f30e af9c8605-54c4-4883-beb2-92e5a0a69bba</tstamps>
     </comp>
     <comp ref="U11">
       <value>LSM6DSV</value>
@@ -6162,6 +6360,24 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Memory/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e8652563-fe3e-47b8-8b24-3b6b45381c73/"/>
       <tstamps>25f516c9-3b3d-4a23-acaa-87c82d0d0c6e</tstamps>
+    </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Memory"/>
+      <property name="Sheetfile" value="Memory.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Memory/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e8652563-fe3e-47b8-8b24-3b6b45381c73/"/>
+      <tstamps>3d4e7ab1-e304-4e16-999e-641bb1ffb801</tstamps>
     </comp>
     <comp ref="C57">
       <value>100uF</value>
@@ -6779,6 +6995,24 @@
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/12fd9232-9755-4d46-8bc5-bf3aabba5d0f/"/>
       <tstamps>860526f1-da95-4ee5-a533-e51d9993c305</tstamps>
     </comp>
+    <comp ref="TP?">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/12fd9232-9755-4d46-8bc5-bf3aabba5d0f/"/>
+      <tstamps>9c01fc55-6d2c-45a9-b6b3-8ece52524355 c6d53855-3210-4436-8ea6-fe7c56ada947 acb9de72-dd64-44f0-9473-e6f022bb3ac2 5c14ed85-d7ed-473b-9c2f-4dcbbdd9c897</tstamps>
+    </comp>
     <comp ref="U12">
       <value>5V</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
@@ -6959,6 +7193,24 @@
         <pin num="4" name="Pin_4" type="passive"/>
         <pin num="5" name="Pin_5" type="passive"/>
         <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="USB_B_Micro">
@@ -8148,6 +8400,7 @@
       <node ref="SW4" pin="2" pintype="passive"/>
       <node ref="SW4" pin="3" pintype="passive"/>
       <node ref="SW4" pin="4" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="VDDA" pintype="power_in"/>
       <node ref="U1" pin="19" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="32" pinfunction="VDD" pintype="power_in"/>
@@ -8169,6 +8422,7 @@
     <net code="2" name="+3.3V_USB" class="Default">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="48" pinfunction="VDDUSB" pintype="power_in"/>
     </net>
     <net code="3" name="+5V" class="Default">
@@ -8202,6 +8456,7 @@
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R83" pin="2" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U13" pin="3" pinfunction="VI" pintype="power_in"/>
       <node ref="U4" pin="3" pinfunction="VCC" pintype="power_in"/>
     </net>
@@ -8215,28 +8470,33 @@
     <net code="6" name="+BATT" class="Default">
       <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
     </net>
     <net code="7" name="/Project Architecture/Analog - Input 3V3/ADC1_IN0" class="Default">
       <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="PC0" pintype="bidirectional"/>
       <node ref="U5" pin="1" pintype="output"/>
       <node ref="U5" pin="2" pinfunction="-" pintype="input"/>
     </net>
     <net code="8" name="/Project Architecture/Analog - Input 3V3/ADC1_IN1" class="Default">
       <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="9" pinfunction="PC1" pintype="bidirectional"/>
       <node ref="U5" pin="6" pinfunction="-" pintype="input"/>
       <node ref="U5" pin="7" pintype="output"/>
     </net>
     <net code="9" name="/Project Architecture/Analog - Input 3V3/ADC1_IN2" class="Default">
       <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="PC2" pintype="bidirectional"/>
       <node ref="U5" pin="8" pintype="output"/>
       <node ref="U5" pin="9" pinfunction="-" pintype="input"/>
     </net>
     <net code="10" name="/Project Architecture/Analog - Input 3V3/ADC1_IN3" class="Default">
       <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="PC3" pintype="bidirectional"/>
       <node ref="U5" pin="13" pinfunction="-" pintype="input"/>
       <node ref="U5" pin="14" pintype="output"/>
@@ -8275,21 +8535,25 @@
     </net>
     <net code="20" name="/Project Architecture/Analog - Input 5V &amp; 10V/ADC1_IN4" class="Default">
       <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="1" pintype="output"/>
       <node ref="U6" pin="2" pinfunction="-" pintype="input"/>
     </net>
     <net code="21" name="/Project Architecture/Analog - Input 5V &amp; 10V/ADC1_IN5" class="Default">
       <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="6" pinfunction="-" pintype="input"/>
       <node ref="U6" pin="7" pintype="output"/>
     </net>
     <net code="22" name="/Project Architecture/Analog - Input 5V &amp; 10V/ADC1_IN6" class="Default">
       <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="8" pintype="output"/>
       <node ref="U6" pin="9" pinfunction="-" pintype="input"/>
     </net>
     <net code="23" name="/Project Architecture/Analog - Input 5V &amp; 10V/ADC1_IN7" class="Default">
       <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="13" pinfunction="-" pintype="input"/>
       <node ref="U6" pin="14" pintype="output"/>
     </net>
@@ -8349,18 +8613,22 @@
     </net>
     <net code="42" name="/Project Architecture/Digital - In&amp;Out/PWM1_CH0" class="Default">
       <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="41" pinfunction="PA8" pintype="bidirectional"/>
     </net>
     <net code="43" name="/Project Architecture/Digital - In&amp;Out/PWM1_CH1" class="Default">
       <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="50" pinfunction="PA15" pintype="bidirectional"/>
     </net>
     <net code="44" name="/Project Architecture/Digital - In&amp;Out/PWM2_CH0" class="Default">
       <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="55" pinfunction="PB3" pintype="bidirectional"/>
     </net>
     <net code="45" name="/Project Architecture/Digital - In&amp;Out/PWM2_CH1" class="Default">
       <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="56" pinfunction="PB4" pintype="bidirectional"/>
     </net>
     <net code="47" name="/Project Architecture/Interface - CAN/CAN_H" class="Default">
@@ -8559,12 +8827,14 @@
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
     </net>
     <net code="103" name="/Project Architecture/MCU - IOT/ESP_BOOT0" class="Default">
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="15" pinfunction="IO9" pintype="bidirectional"/>
     </net>
     <net code="104" name="/Project Architecture/MCU - IOT/ESP_CAN_RX" class="Default">
@@ -8724,11 +8994,13 @@
     <net code="150" name="CD_RELAY1" class="Default">
       <node ref="R48" pin="1" pintype="passive"/>
       <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="10" pinfunction="P06" pintype="bidirectional"/>
     </net>
     <net code="151" name="CD_RELAY2" class="Default">
       <node ref="R49" pin="1" pintype="passive"/>
       <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="11" pinfunction="P07" pintype="bidirectional"/>
     </net>
     <net code="152" name="DAC1" class="Default">
@@ -8915,6 +9187,7 @@
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="VSSA" pintype="power_in"/>
       <node ref="U1" pin="18" pinfunction="VSS" pintype="power_in"/>
       <node ref="U1" pin="31" pinfunction="VSS" pintype="passive"/>
@@ -8964,36 +9237,44 @@
       <node ref="U2" pin="20" pinfunction="P17" pintype="bidirectional"/>
     </net>
     <net code="160" name="GPIO_Expander_~{INT}" class="Default">
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="39" pinfunction="PC8" pintype="bidirectional"/>
       <node ref="U2" pin="1" pinfunction="~{INT}" pintype="open_collector"/>
     </net>
     <net code="161" name="GPIO_Expander_~{RESET}" class="Default">
       <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="40" pinfunction="PC9" pintype="bidirectional"/>
       <node ref="U2" pin="3" pinfunction="~{RESET}" pintype="input"/>
     </net>
     <net code="162" name="IMU_SENSOR_CS" class="Default">
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="28" pinfunction="PB2" pintype="bidirectional"/>
       <node ref="U11" pin="12" pinfunction="CS" pintype="input"/>
     </net>
     <net code="163" name="IMU_SENSOR_INT1" class="Default">
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="4" pinfunction="INT1" pintype="output"/>
       <node ref="U2" pin="4" pinfunction="P00" pintype="bidirectional"/>
     </net>
     <net code="164" name="IMU_SENSOR_INT2" class="Default">
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="9" pinfunction="INT2" pintype="output"/>
       <node ref="U2" pin="5" pinfunction="P01" pintype="bidirectional"/>
     </net>
     <net code="165" name="LED_PWM_DIN" class="Default">
       <node ref="D21" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="57" pinfunction="PB5" pintype="bidirectional"/>
     </net>
     <net code="166" name="Light_SENSOR_INT" class="Default">
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U10" pin="3" pintype="output"/>
       <node ref="U2" pin="6" pinfunction="P02" pintype="bidirectional"/>
     </net>
     <net code="167" name="MCU_BOOT0" class="Default">
       <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="60" pinfunction="PF3" pintype="bidirectional"/>
       <node ref="U3" pin="11" pinfunction="IO10" pintype="bidirectional"/>
     </net>
@@ -9011,6 +9292,7 @@
     <net code="171" name="MicroSD_Detection" class="Default">
       <node ref="J33" pin="10" pinfunction="DET_A" pintype="passive"/>
       <node ref="R71" pin="2" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="7" pinfunction="P03" pintype="bidirectional"/>
       <node ref="U3" pin="23" pinfunction="IO15" pintype="bidirectional"/>
     </net>
@@ -9281,10 +9563,12 @@
       <node ref="U12" pin="4" pinfunction="VFB" pintype="input"/>
     </net>
     <net code="231" name="RS485_DE" class="Default">
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="P05" pintype="bidirectional"/>
       <node ref="U7" pin="4" pinfunction="DE" pintype="input"/>
     </net>
     <net code="232" name="RS485_~{RE}" class="Default">
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="8" pinfunction="P04" pintype="bidirectional"/>
       <node ref="U7" pin="3" pinfunction="~{RE}" pintype="input"/>
     </net>
@@ -9296,6 +9580,7 @@
       <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R80" pin="2" pintype="passive"/>
       <node ref="R82" pin="2" pintype="passive"/>
+      <node ref="TP?" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U12" pin="3" pinfunction="VIN" pintype="power_in"/>
     </net>
     <net code="234" name="Switch_DIP_1" class="Default">
