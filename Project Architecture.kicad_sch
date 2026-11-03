@@ -12,8 +12,8 @@
 	)
 	(lib_symbols)
 	(rectangle
-		(start 63.5 240.03)
-		(end 71.12 255.27)
+		(start 137.16 330.2)
+		(end 144.78 345.44)
 		(stroke
 			(width 0)
 			(type dot)
@@ -64,8 +64,8 @@
 		(uuid 876a0a26-4a8b-41fa-803e-719bb793a518)
 	)
 	(rectangle
-		(start 83.82 217.17)
-		(end 172.72 269.24)
+		(start 157.48 307.34)
+		(end 246.38 359.41)
 		(stroke
 			(width 1)
 			(type default)
@@ -211,7 +211,7 @@
 	)
 	(text_box "DESIGN NOTE:\nblablabla"
 		(exclude_from_sim no)
-		(at 29.21 254 0)
+		(at 102.87 344.17 0)
 		(size 21.59 11.43)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -234,7 +234,7 @@
 	)
 	(text_box "Block Description"
 		(exclude_from_sim no)
-		(at 85.09 257.81 0)
+		(at 158.75 347.98 0)
 		(size 86.36 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -258,7 +258,7 @@
 	)
 	(text_box "DESIGN NOTE:\nblabla"
 		(exclude_from_sim no)
-		(at 115.57 245.11 0)
+		(at 189.23 335.28 0)
 		(size 21.59 15.24)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -281,7 +281,7 @@
 	)
 	(text_box "LAYOUT NOTE:\nblablabla"
 		(exclude_from_sim no)
-		(at 36.83 201.93 0)
+		(at 43.18 325.12 0)
 		(size 26.67 11.43)
 		(margins 1.4525 1.4525 1.4525 1.4525)
 		(stroke
@@ -306,7 +306,7 @@
 	)
 	(text_box "LAYOUT NOTE:\nblabla"
 		(exclude_from_sim no)
-		(at 139.7 245.11 0)
+		(at 213.36 335.28 0)
 		(size 26.67 15.24)
 		(margins 1.4525 1.4525 1.4525 1.4525)
 		(stroke
@@ -331,7 +331,7 @@
 	)
 	(text_box "DESIGN NOTE:\nblabla"
 		(exclude_from_sim no)
-		(at 91.44 245.11 0)
+		(at 165.1 335.28 0)
 		(size 21.59 15.24)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -442,7 +442,7 @@
 	)
 	(polyline
 		(pts
-			(xy 63.5 250.19) (xy 50.8 254)
+			(xy 137.16 340.36) (xy 124.46 344.17)
 		)
 		(stroke
 			(width 0)
@@ -632,7 +632,7 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "11")
+					(page "20")
 				)
 			)
 		)
@@ -653,7 +653,7 @@
 			(color 128 255 128 0.5000)
 		)
 		(uuid "2328e1c7-765c-44a4-be74-70cc06878284")
-		(property "Sheetname" "In&Out - Command"
+		(property "Sheetname" "Digital - In&Out"
 			(at 256.54 110.7309 0)
 			(effects
 				(font
@@ -665,7 +665,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "In&Out - Command.kicad_sch"
+		(property "Sheetfile" "Digital - In&Out.kicad_sch"
 			(at 256.54 150.4446 0)
 			(effects
 				(font
@@ -691,7 +691,7 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "8")
+					(page "11")
 				)
 			)
 		)
@@ -712,7 +712,7 @@
 			(color 128 255 128 0.5000)
 		)
 		(uuid "359d567e-e3ae-48f2-b591-75bb7aa09775")
-		(property "Sheetname" "In&Out - ADC"
+		(property "Sheetname" "Analog - Input 3V3"
 			(at 256.54 59.9309 0)
 			(effects
 				(font
@@ -724,7 +724,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "In&Out - ADC.kicad_sch"
+		(property "Sheetfile" "Analog - Input 3V3.kicad_sch"
 			(at 256.54 99.6446 0)
 			(effects
 				(font
@@ -750,7 +750,7 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
@@ -771,7 +771,7 @@
 			(color 0 255 255 0.4510)
 		)
 		(uuid "36a4516e-766c-4af8-bfbd-9a47ecf037b9")
-		(property "Sheetname" "Serial Interface"
+		(property "Sheetname" "Interface - RS232 & RS485"
 			(at 101.6 161.5309 0)
 			(effects
 				(font
@@ -783,7 +783,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Serial Interface.kicad_sch"
+		(property "Sheetfile" "Interface - RS232 & RS485.kicad_sch"
 			(at 101.6 201.2446 0)
 			(effects
 				(font
@@ -809,7 +809,125 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "9")
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 402.59 171.45)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "3c2f2e28-7046-4a61-bae9-1f11361ea8be")
+		(property "Sheetname" "Command - LED"
+			(at 402.59 170.4209 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Command - LED.kicad_sch"
+			(at 402.59 210.1346 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MCU_PWM}" input
+			(at 402.59 189.23 180)
+			(uuid "193940df-e0b7-4a79-81c4-9c03c7797a1b")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(thickness 0.3302)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 433.07 223.52)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 0.4510)
+		)
+		(uuid "567de3bb-7199-4146-8c71-02602f67c6b4")
+		(property "Sheetname" "Interface - Other"
+			(at 433.07 222.4909 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface - Other.kicad_sch"
+			(at 433.07 262.2046 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MCU_Serial_COM}" bidirectional
+			(at 496.57 233.68 0)
+			(uuid "c0bb198d-f40e-48b1-8c3c-56f5c5d6e4e9")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(thickness 0.3302)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "16")
 				)
 			)
 		)
@@ -830,7 +948,7 @@
 			(color 1 101 252 0.6510)
 		)
 		(uuid "6ab43cd8-dabb-49a4-aa94-5d820261f9f9")
-		(property "Sheetname" "MCU Expander"
+		(property "Sheetname" "MCU - Expander"
 			(at 180.34 126.7964 0)
 			(effects
 				(font
@@ -842,7 +960,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU Expander.kicad_sch"
+		(property "Sheetfile" "MCU - Expander.kicad_sch"
 			(at 180.34 150.6478 0)
 			(effects
 				(font
@@ -869,7 +987,7 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -890,7 +1008,7 @@
 			(color 128 255 128 0.5000)
 		)
 		(uuid "8072ef77-2eb5-49e2-be68-564c8a3f23e5")
-		(property "Sheetname" "Sensor"
+		(property "Sheetname" "Sensor - Environment"
 			(at 101.6 110.2864 0)
 			(effects
 				(font
@@ -902,7 +1020,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sensor.kicad_sch"
+		(property "Sheetfile" "Sensor - Environment.kicad_sch"
 			(at 101.6 150.6478 0)
 			(effects
 				(font
@@ -941,7 +1059,66 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "10")
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 330.2 175.26)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 0.4510)
+		)
+		(uuid "8299e0f2-6bf3-4902-89f0-4fdf0c795bbb")
+		(property "Sheetname" "Interface - CAN"
+			(at 330.2 174.2309 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface - CAN.kicad_sch"
+			(at 330.2 213.9446 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MCU_Serial_COM}" bidirectional
+			(at 393.7 185.42 0)
+			(uuid "d4408d1a-ba37-4142-ae99-c67f20d16b39")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(thickness 0.3302)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "15")
 				)
 			)
 		)
@@ -1035,6 +1212,94 @@
 		)
 	)
 	(sheet
+		(at 328.93 101.6)
+		(size 63.5 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 1 101 252 0.6510)
+		)
+		(uuid "9b521bd3-286d-4492-bf1e-c977c7092fd8")
+		(property "Sheetname" "MCU - Programming"
+			(at 328.93 100.1264 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU - Programming.kicad_sch"
+			(at 328.93 156.9978 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MCU_ADC}" input
+			(at 392.43 119.38 0)
+			(uuid "e1562c06-8563-4d0d-b763-bf6f4308225f")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.651 1.651)
+					(thickness 0.3302)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MCU_PWM}" output
+			(at 392.43 142.24 0)
+			(uuid "f7b11679-e7d0-4c6d-b327-52431078c91d")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.651 1.651)
+					(thickness 0.3302)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MCU_Serial_COM}" bidirectional
+			(at 328.93 114.3 180)
+			(uuid "b8df94a1-a9e6-419d-812b-0245d225b428")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.651 1.651)
+					(thickness 0.3302)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 101.6 60.96)
 		(size 63.5 38.1)
 		(exclude_from_sim no)
@@ -1050,7 +1315,7 @@
 			(color 255 200 0 0.5020)
 		)
 		(uuid "aee029d3-cef7-411c-a549-c063d755aba3")
-		(property "Sheetname" "MCU IOT"
+		(property "Sheetname" "MCU - IOT"
 			(at 101.6 59.9309 0)
 			(effects
 				(font
@@ -1062,7 +1327,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU IOT.kicad_sch"
+		(property "Sheetfile" "MCU - IOT.kicad_sch"
 			(at 101.6 99.6446 0)
 			(effects
 				(font
@@ -1101,7 +1366,328 @@
 		(instances
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "6")
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 405.13 110.49)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "d260e39d-d0df-406a-9ec8-7c64bc216518")
+		(property "Sheetname" "Command - High Power"
+			(at 405.13 109.4609 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Command - High Power.kicad_sch"
+			(at 405.13 149.1746 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MCU_PWM}" input
+			(at 405.13 128.27 180)
+			(uuid "6de350ac-47a3-42a4-aad0-b2482e92eca8")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(thickness 0.3302)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 328.93 52.07)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "d7e4d26c-9536-468d-83dc-57f9224d2d21")
+		(property "Sheetname" "Analog - Input 5V & 10V"
+			(at 328.93 51.0409 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog - Input 5V & 10V.kicad_sch"
+			(at 328.93 90.7546 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MCU_ADC}" output
+			(at 328.93 69.85 180)
+			(uuid "a7c28b53-96ad-4421-99f5-532625fcf531")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(thickness 0.3302)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 405.13 50.8)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "dacb0223-76c3-4949-bff3-b27dbb956a55")
+		(property "Sheetname" "Analog - Output"
+			(at 405.13 49.7709 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog - Output.kicad_sch"
+			(at 405.13 89.4846 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MCU_ADC}" output
+			(at 405.13 68.58 180)
+			(uuid "5fdd2579-37aa-45b2-8f0f-ef5aa25d6fa5")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(thickness 0.3302)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 486.41 166.37)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "e7894138-f2cb-4895-8e1c-f8fd63cc5ab0")
+		(property "Sheetname" "Sensor - IMU"
+			(at 486.41 164.8964 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor - IMU.kicad_sch"
+			(at 486.41 205.2578 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ESP_Serial_COM}" bidirectional
+			(at 549.91 175.26 0)
+			(uuid "151f09e1-5239-42a5-847c-b7e87c65a648")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(thickness 0.3302)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MCU_Serial_COM}" bidirectional
+			(at 549.91 191.77 0)
+			(uuid "225c016b-7dfc-4def-8196-3a7162d02286")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(thickness 0.3302)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 485.14 113.03)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "e8652563-fe3e-47b8-8b24-3b6b45381c73")
+		(property "Sheetname" "Memory"
+			(at 485.14 111.5564 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.794 2.794)
+					(bold yes)
+					(color 0 0 194 0.9019607843)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Memory.kicad_sch"
+			(at 485.14 151.9178 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.778 1.778)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ESP_Serial_COM}" bidirectional
+			(at 548.64 121.92 0)
+			(uuid "e5e4550e-103f-42f2-a604-9bd886ee2fb9")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(thickness 0.3302)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MCU_Serial_COM}" bidirectional
+			(at 548.64 138.43 0)
+			(uuid "4912b2ac-c1b1-4d8c-b1c6-9eba5dea4064")
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(thickness 0.3302)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "19")
 				)
 			)
 		)
