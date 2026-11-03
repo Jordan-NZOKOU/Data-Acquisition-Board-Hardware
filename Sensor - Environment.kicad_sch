@@ -11,6 +11,113 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1927,7 +2034,7 @@
 	)
 	(rectangle
 		(start 30.48 56.0203)
-		(end 78.74 120.6499)
+		(end 78.74 87.6299)
 		(stroke
 			(width 1)
 			(type default)
@@ -1937,6 +2044,19 @@
 			(type none)
 		)
 		(uuid 37e5b6c4-6330-44ed-8e3f-02de1957d521)
+	)
+	(rectangle
+		(start 30.48 91.5803)
+		(end 78.74 120.6499)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6c7c5f61-167f-406b-a263-6a724a65c4eb)
 	)
 	(rectangle
 		(start 86.36 55.88)
@@ -2011,6 +2131,29 @@
 			(justify bottom)
 		)
 		(uuid "5759c79d-bde5-4ad1-bb15-9d1d1541f335")
+	)
+	(text_box "Test Points"
+		(exclude_from_sim no)
+		(at 31.75 92.71 0)
+		(size 45.72 7.7603)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "98aa050a-d949-4b4f-9259-86232b337ce7")
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
@@ -2096,7 +2239,7 @@
 		(uuid "ffbdcbd8-f76d-426c-afd7-1ff882f4e25c")
 	)
 	(bus_entry
-		(at 58.42 83.82)
+		(at 58.42 77.47)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2106,7 +2249,7 @@
 		(uuid "0e2c4c78-1d7a-4df6-910c-f06d1d680995")
 	)
 	(bus_entry
-		(at 58.42 81.28)
+		(at 58.42 74.93)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2117,7 +2260,7 @@
 	)
 	(bus
 		(pts
-			(xy 58.42 81.28) (xy 58.42 83.82)
+			(xy 58.42 74.93) (xy 58.42 77.47)
 		)
 		(stroke
 			(width 0.508)
@@ -2127,7 +2270,7 @@
 	)
 	(bus
 		(pts
-			(xy 55.88 77.47) (xy 54.61 77.47)
+			(xy 55.88 71.12) (xy 54.61 71.12)
 		)
 		(stroke
 			(width 0.508)
@@ -2157,7 +2300,7 @@
 	)
 	(bus
 		(pts
-			(xy 58.42 80.01) (xy 58.42 81.28)
+			(xy 58.42 73.66) (xy 58.42 74.93)
 		)
 		(stroke
 			(width 0.508)
@@ -2237,7 +2380,7 @@
 	)
 	(bus
 		(pts
-			(xy 54.61 77.47) (xy 52.07 77.47)
+			(xy 54.61 71.12) (xy 52.07 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2490,7 @@
 	)
 	(bus
 		(pts
-			(xy 58.42 83.82) (xy 58.42 86.36)
+			(xy 58.42 77.47) (xy 58.42 80.01)
 		)
 		(stroke
 			(width 0.508)
@@ -2417,6 +2560,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 106.68) (xy 62.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1545114-5e41-45ba-a421-500a09977cdb")
+	)
+	(wire
+		(pts
 			(xy 130.81 74.93) (xy 125.73 74.93)
 		)
 		(stroke
@@ -2467,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 86.36) (xy 60.96 86.36)
+			(xy 74.93 80.01) (xy 60.96 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2640,7 @@
 	)
 	(bus
 		(pts
-			(xy 58.42 80.01) (xy 55.88 77.47)
+			(xy 58.42 73.66) (xy 55.88 71.12)
 		)
 		(stroke
 			(width 0.508)
@@ -2537,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 83.82) (xy 60.96 83.82)
+			(xy 74.93 77.47) (xy 60.96 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2578,7 +2731,7 @@
 		(uuid "39095b18-4b7f-44c6-b987-114b2d2da185")
 	)
 	(label "I2C2_SCL"
-		(at 74.93 86.36 180)
+		(at 74.93 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2589,7 +2742,7 @@
 		(uuid "53983549-1481-4179-9943-0067c7f4aaeb")
 	)
 	(label "I2C2_SDA"
-		(at 74.93 83.82 180)
+		(at 74.93 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2622,6 +2775,28 @@
 		(uuid "c53a70c0-65d1-49a1-a67e-a3eac1dafccc")
 	)
 	(global_label "Light_SENSOR_INT"
+		(shape input)
+		(at 55.88 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fca6488-1670-4893-a257-c9bdffc816f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.9011 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Light_SENSOR_INT"
 		(shape output)
 		(at 196.85 78.74 180)
 		(fields_autoplaced yes)
@@ -2645,7 +2820,7 @@
 	)
 	(hierarchical_label "{MCU_Serial_COM}"
 		(shape bidirectional)
-		(at 52.07 77.47 180)
+		(at 52.07 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4356,6 +4531,73 @@
 			(project "Data-Acquisition-Board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/8072ef77-2eb5-49e2-be68-564c8a3f23e5"
 					(reference "#PWR0245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5d6a5e8-ce51-457b-bf9b-8cd7d664dc58")
+		(property "Reference" "TP?"
+			(at 67.056 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 67.31 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 62.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "218dbe43-e12c-4f89-bf52-01a0f696c429")
+		)
+		(instances
+			(project "Data-Acquisition-Board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/8072ef77-2eb5-49e2-be68-564c8a3f23e5"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
