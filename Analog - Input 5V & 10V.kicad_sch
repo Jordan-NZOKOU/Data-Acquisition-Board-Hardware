@@ -1803,6 +1803,43 @@
 		)
 		(uuid 85abe2b0-4fa8-4005-aec9-becccfb0c079)
 	)
+	(rectangle
+		(start 217.17 57.15)
+		(end 228.6 73.66)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ba1448f3-8f1c-4e9a-ac7b-8af1970d3125)
+	)
+	(text_box "Addition of a voltage-follower operational amplifier to avoid an impedance matching problem."
+		(exclude_from_sim no)
+		(at 113.03 107.95 0)
+		(size 25.4 8.89)
+		(margins 2 2 2 2)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "103fabc0-ba28-437f-b8ba-966e83cdebe3")
+	)
 	(text_box "Test Points"
 		(exclude_from_sim no)
 		(at 215.9 97.79 0)
@@ -1920,6 +1957,32 @@
 			(justify bottom)
 		)
 		(uuid "e98bca9f-7caf-4c34-bf41-fbd0007d1428")
+	)
+	(text_box "LAYOUT NOTE:\nRoute analog traces away from digital signals."
+		(exclude_from_sim no)
+		(at 256.54 66.04 0)
+		(size 22.86 10.16)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "f9a53313-59c3-4bac-8284-bebcf404a5ae")
 	)
 	(junction
 		(at 189.23 113.03)
@@ -2224,6 +2287,17 @@
 			(type default)
 		)
 		(uuid "2575fffd-d2e8-482c-a4c7-79435a0f27c4")
+	)
+	(polyline
+		(pts
+			(xy 228.6 71.12) (xy 256.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "29009d16-b732-4ff4-abe9-8a30b9365f3f")
 	)
 	(wire
 		(pts
@@ -2764,6 +2838,17 @@
 			(type default)
 		)
 		(uuid "8e374f9d-899c-44a8-81e6-b48735e5fe29")
+	)
+	(polyline
+		(pts
+			(xy 138.43 113.03) (xy 171.45 113.03)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "8f3db35e-fd83-4e17-a26b-fab4ca8abbc3")
 	)
 	(wire
 		(pts

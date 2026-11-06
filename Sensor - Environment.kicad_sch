@@ -2072,6 +2072,19 @@
 		(uuid 90f2a272-c78b-49c6-b30f-6123b10bf374)
 	)
 	(rectangle
+		(start 139.7 69.85)
+		(end 156.21 87.63)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cecf2382-2fa0-4344-8b27-7d518b3f0bb4)
+	)
+	(rectangle
 		(start 173.99 55.88)
 		(end 266.7 110.49)
 		(stroke
@@ -2177,6 +2190,30 @@
 			)
 		)
 		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
+	)
+	(text_box "DESIGN NOTE:\nPin SDO is used to change the I2C adresse of the device :\n	High (VDDIO): 1110111 (0x77)\n	Low : 1110110 (0x76)"
+		(exclude_from_sim no)
+		(at 152.4 39.37 0)
+		(size 43.18 10.16)
+		(margins 2 2 2 2)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 165 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ec8117c8-e34c-4389-a0d8-7fe1d9de32dd")
 	)
 	(text_box "VEML6030 : Light sensor"
 		(exclude_from_sim no)
@@ -2287,6 +2324,16 @@
 			(type default)
 		)
 		(uuid "0adbcebf-4fc6-470e-ad20-46fe1a6f1034")
+	)
+	(wire
+		(pts
+			(xy 39.37 106.68) (xy 62.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11224c6d-5292-43a6-b9d3-77083cab3a5c")
 	)
 	(wire
 		(pts
@@ -2560,16 +2607,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 106.68) (xy 62.23 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1545114-5e41-45ba-a421-500a09977cdb")
-	)
-	(wire
-		(pts
 			(xy 130.81 74.93) (xy 125.73 74.93)
 		)
 		(stroke
@@ -2587,6 +2624,17 @@
 			(type default)
 		)
 		(uuid "b37e0bb6-81ef-40e6-a4bf-a9a4ae341f2c")
+	)
+	(polyline
+		(pts
+			(xy 156.21 71.12) (xy 173.99 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "b4b00e70-1e81-4a01-b0ec-1f3ea8590ae3")
 	)
 	(wire
 		(pts
@@ -2719,6 +2767,17 @@
 		)
 		(uuid "20611094-7920-422a-80d9-fc8ae3fefdda")
 	)
+	(label "Light_SENSOR_INT"
+		(at 39.37 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c27495f-0ff5-4919-86b8-72e89b5cb91c")
+	)
 	(label "I2C2_SCL"
 		(at 153.67 90.17 180)
 		(effects
@@ -2774,50 +2833,6 @@
 		)
 		(uuid "c53a70c0-65d1-49a1-a67e-a3eac1dafccc")
 	)
-	(global_label "Light_SENSOR_INT"
-		(shape input)
-		(at 55.88 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4fca6488-1670-4893-a257-c9bdffc816f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.9011 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Light_SENSOR_INT"
-		(shape output)
-		(at 196.85 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "77b68626-74de-4367-9994-4da9f519cbfa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.8711 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "{MCU_Serial_COM}"
 		(shape bidirectional)
 		(at 52.07 71.12 180)
@@ -2828,6 +2843,18 @@
 			(justify right)
 		)
 		(uuid "64a82459-2f28-4891-8856-f35f31810f33")
+	)
+	(hierarchical_label "Light_SENSOR_INT"
+		(shape output)
+		(at 196.85 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "ab5ae403-b8cf-4df9-b84e-0ea80cc0cee7")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -4378,7 +4405,7 @@
 		(dnp yes)
 		(uuid "f486a522-71d5-41cb-b38b-4dab3bb0899c")
 		(property "Reference" "R69"
-			(at 144.018 77.978 0)
+			(at 143.002 77.978 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4386,7 +4413,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 143.002 80.264 0)
+			(at 142.748 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)

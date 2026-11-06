@@ -1721,16 +1721,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 119.38) (xy 92.71 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab311c7e-3b7d-4eda-9452-820355f5cfb6")
-	)
-	(wire
-		(pts
 			(xy 124.46 90.17) (xy 161.29 90.17)
 		)
 		(stroke
@@ -1909,6 +1899,16 @@
 		)
 		(uuid "eb57fb15-664a-4f4b-ae92-68c50dcbbd65")
 	)
+	(wire
+		(pts
+			(xy 67.31 119.38) (xy 92.71 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22eec5a-b0a1-48df-9fb6-4ff132327d76")
+	)
 	(bus
 		(pts
 			(xy 87.63 87.63) (xy 87.63 90.17)
@@ -1996,6 +1996,17 @@
 		)
 		(uuid "b7602845-f963-413b-858c-d736821ca3d6")
 	)
+	(label "MicroSD_Detection"
+		(at 67.31 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb19db1b-29bf-4aed-89f4-bdf66493973f")
+	)
 	(label "ESP_SPI_MISO"
 		(at 124.46 100.33 0)
 		(effects
@@ -2007,50 +2018,6 @@
 		)
 		(uuid "fc0ac23f-728c-4aa7-bab9-cea5caa0b5dc")
 	)
-	(global_label "MicroSD_Detection"
-		(shape output)
-		(at 158.75 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4631a2b8-21b2-4f98-bb80-eb84e43f1ee8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.3477 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MicroSD_Detection"
-		(shape input)
-		(at 86.36 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "515a7bc7-9595-490a-a346-a6a96083118f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.9577 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "{ESP_Serial_COM}"
 		(shape bidirectional)
 		(at 81.28 76.2 180)
@@ -2061,6 +2028,18 @@
 			(justify right)
 		)
 		(uuid "891a93e3-7bd8-46bf-ba67-54a043cc67fb")
+	)
+	(hierarchical_label "MicroSD_Detection"
+		(shape output)
+		(at 158.75 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "f9c112f0-e42e-4116-8d2b-502866181303")
 	)
 	(symbol
 		(lib_id "power:GND")

@@ -986,6 +986,19 @@
 		(uuid 85a5dc84-2ebe-4406-8267-6fb4502c7f83)
 	)
 	(rectangle
+		(start 85.09 111.76)
+		(end 97.79 128.27)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b00be088-78c7-40d0-a8e3-d7ab7296794e)
+	)
+	(rectangle
 		(start 226.06 38.2403)
 		(end 262.89 83.8199)
 		(stroke
@@ -1045,6 +1058,32 @@
 		)
 		(uuid "6cddb070-93fc-4145-b937-3f2d357f2ae4")
 	)
+	(text_box "LAYOUT NOTE:\nRoute PWM traces away from analog signals."
+		(exclude_from_sim no)
+		(at 34.29 120.65 0)
+		(size 22.86 10.16)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify right top)
+		)
+		(uuid "7dae62ac-a18c-4518-86a5-d9ee0779554c")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 12.7 15.24 0)
@@ -1071,7 +1110,7 @@
 	(text_box "PWM"
 		(exclude_from_sim no)
 		(at 107.95 91.2997 0)
-		(size 135.89 7.7603)
+		(size 153.67 7.7603)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)
@@ -1293,6 +1332,17 @@
 			(type default)
 		)
 		(uuid "22639bfd-71b4-4bc3-bba4-347e1ab396f4")
+	)
+	(polyline
+		(pts
+			(xy 85.09 125.73) (xy 57.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "2d046d70-5f8b-45bf-8e60-8a580ae21696")
 	)
 	(wire
 		(pts
@@ -2056,93 +2106,41 @@
 		)
 		(uuid "fd84ddd0-e3ca-47e4-bd6c-3189dd3baf37")
 	)
-	(global_label "GPIO_EXP_P17"
+	(hierarchical_label "GPIO_EXP_P17"
 		(shape bidirectional)
 		(at 148.59 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify right)
 		)
-		(uuid "2adde72a-208c-422c-b0fc-d1380cc47fe4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.7655 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "56b96695-691a-4290-a933-a9c6547ca194")
 	)
-	(global_label "GPIO_EXP_P15"
-		(shape bidirectional)
-		(at 83.82 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2ffa1ce5-cdc8-45d4-b505-a522f822be90")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.9955 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_EXP_P14"
+	(hierarchical_label "GPIO_EXP_P14"
 		(shape bidirectional)
 		(at 83.82 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify right)
 		)
-		(uuid "9e1c16c4-07be-45eb-8b3f-bd8c24a08d5a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.9955 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "8d0884f8-dbb2-44c1-a50e-d55ce24cef78")
 	)
-	(global_label "GPIO_EXP_P16"
+	(hierarchical_label "GPIO_EXP_P15"
 		(shape bidirectional)
-		(at 148.59 62.23 180)
-		(fields_autoplaced yes)
+		(at 83.82 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify right)
 		)
-		(uuid "c1c1c0c7-48d1-42b5-9105-7fa54b652daf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.7655 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "93e2e684-b586-4cf9-9175-ce80cd74338a")
 	)
 	(hierarchical_label "{MCU_PWM}"
 		(shape input)
@@ -2154,6 +2152,18 @@
 			(justify right)
 		)
 		(uuid "d4d3f688-18c3-4456-aea0-c91ee56897b0")
+	)
+	(hierarchical_label "GPIO_EXP_P16"
+		(shape bidirectional)
+		(at 148.59 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "ee6a7224-f07a-4c8d-b0ad-380576c676bc")
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")

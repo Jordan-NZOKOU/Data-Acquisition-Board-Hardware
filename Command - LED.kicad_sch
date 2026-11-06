@@ -1017,6 +1017,30 @@
 		)
 		(uuid "c020b188-3bf0-45d2-b9b7-9d10fa998abf")
 	)
+	(text_box "WS2812B LED consumption : \n	Red : 0.1 W\n	Green : 0.1 W\n	Blue : 0.1 W\n	RGB (White) : 0.3 W"
+		(exclude_from_sim no)
+		(at 175.26 55.88 0)
+		(size 24.13 11.43)
+		(margins 2 2 2 2)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "de4aa845-79ec-4ad5-8444-8dcf4cc76039")
+	)
 	(text_box "Test Points"
 		(exclude_from_sim no)
 		(at 100.33 104.14 0)
@@ -1048,6 +1072,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 118.11) (xy 158.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b426ab-75d5-4e76-afbd-455c6ca61e59")
+	)
+	(wire
+		(pts
 			(xy 170.18 82.55) (xy 170.18 83.82)
 		)
 		(stroke
@@ -1068,16 +1102,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 118.11) (xy 158.75 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47746224-84f7-4a24-9aad-766c428e66f6")
-	)
-	(wire
-		(pts
 			(xy 180.34 82.55) (xy 170.18 82.55)
 		)
 		(stroke
@@ -1088,7 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 80.01) (xy 120.65 80.01)
+			(xy 116.84 80.01) (xy 120.65 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1166,6 +1190,17 @@
 		)
 		(uuid "ffa848c0-92f0-4ee5-9a00-bf849f14efc2")
 	)
+	(label "LED_PWM_DIN"
+		(at 138.43 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "63401706-b7ee-4caf-a145-111b3b045009")
+	)
 	(label "LED_DOUT"
 		(at 160.02 80.01 180)
 		(effects
@@ -1176,49 +1211,17 @@
 		)
 		(uuid "dc99ce68-4ccb-4fbc-ba66-db46a117d812")
 	)
-	(global_label "LED_PWM_DIN"
+	(hierarchical_label "LED_PWM_DIN"
 		(shape input)
-		(at 153.67 118.11 180)
-		(fields_autoplaced yes)
+		(at 116.84 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify right)
 		)
-		(uuid "15a2dffb-16a9-4e09-9773-d7b649356630")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.9244 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_PWM_DIN"
-		(shape input)
-		(at 119.38 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cbee50ae-6368-4180-9295-817076a05f20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.6344 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "3fdf7406-1da5-44a7-8db3-e049eb697434")
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
@@ -1786,7 +1789,7 @@
 		(dnp no)
 		(uuid "e023f2a8-c6e1-48a7-9bbb-45591e956d8d")
 		(property "Reference" "J21"
-			(at 186.69 78.7399 0)
+			(at 186.69 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1862,7 @@
 			)
 		)
 		(property "Comment" "LED connector"
-			(at 193.802 81.28 0)
+			(at 193.802 80.0101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 73.66 0)
+			(at 128.27 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)

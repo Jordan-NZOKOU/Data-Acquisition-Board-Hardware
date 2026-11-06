@@ -3363,6 +3363,19 @@
 		(uuid 5b2e9a44-ed70-4c48-a588-54f0ed226059)
 	)
 	(rectangle
+		(start 158.75 49.53)
+		(end 173.99 58.42)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 72ab6d73-7e3e-4561-ade6-23dc5bddf43c)
+	)
+	(rectangle
 		(start 16.51 137.16)
 		(end 92.71 194.31)
 		(stroke
@@ -3490,6 +3503,56 @@
 		)
 		(uuid "26a59d18-ee48-46bc-b3b6-3f1d7f6ba105")
 	)
+	(text_box "^ MCU Boot"
+		(exclude_from_sim no)
+		(at 24.13 54.61 0)
+		(size 12.7 5.08)
+		(margins 2 2 2 2)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "32efb924-560d-489e-b39b-a8581614ddb4")
+	)
+	(text_box "LAYOUT NOTE:\nRoute USB wire traces as a differential pair. Route away from analog signals."
+		(exclude_from_sim no)
+		(at 204.47 15.24 0)
+		(size 24.13 11.43)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "42c14ac1-ff55-434e-91eb-7feb21d62716")
+	)
 	(text_box "   ESP USB"
 		(exclude_from_sim no)
 		(at 113.03 29.21 0)
@@ -3514,13 +3577,13 @@
 		)
 		(uuid "5630a411-7e8f-4a24-b4d9-7667f0867de3")
 	)
-	(text_box "^ MCU Boot"
+	(text_box "^ MCU Reset"
 		(exclude_from_sim no)
-		(at 25.4 54.61 0)
-		(size 11.43 5.08)
-		(margins 0.9525 0.9525 0.9525 0.9525)
+		(at 58.42 54.61 0)
+		(size 12.7 5.08)
+		(margins 2 2 2 2)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type solid)
 			(color 72 72 72 1)
 		)
@@ -3530,13 +3593,13 @@
 		)
 		(effects
 			(font
-				(face "Bahnschrift")
+				(face "Arial")
 				(size 1.016 1.016)
 				(color 0 0 0 1)
 			)
 			(justify left top)
 		)
-		(uuid "6c97053f-9bb3-4de0-a8be-162e1b6ef3d7")
+		(uuid "75f3096b-14a6-4dfe-a2a2-90de0d15fc44")
 	)
 	(text_box "Test Points"
 		(exclude_from_sim no)
@@ -3631,30 +3694,6 @@
 			)
 		)
 		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
-	)
-	(text_box "^ MCU Reset"
-		(exclude_from_sim no)
-		(at 59.69 54.61 0)
-		(size 11.43 5.08)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 72 72 72 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 255 1)
-		)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.016 1.016)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "b7052b8c-da7a-4489-9164-c42318b42f9d")
 	)
 	(text_box "ESP SPI\n"
 		(exclude_from_sim no)
@@ -4730,7 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 161.29 66.04)
+			(xy 154.94 66.04) (xy 156.21 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5590,7 +5629,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 66.04) (xy 154.94 66.04)
+			(xy 147.32 66.04) (xy 149.86 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5620,7 +5659,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 83.82) (xy 85.09 83.82)
+			(xy 81.28 83.82) (xy 82.55 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5637,6 +5676,17 @@
 			(type default)
 		)
 		(uuid "ecf9eb53-08de-4f38-8054-0cf662e22c27")
+	)
+	(polyline
+		(pts
+			(xy 173.99 53.34) (xy 204.47 21.59)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "ed12ac8b-a209-4714-8d2d-061839ad7197")
 	)
 	(wire
 		(pts
@@ -6287,50 +6337,6 @@
 		)
 		(uuid "ff244701-44c5-4771-a934-df6628697d06")
 	)
-	(global_label "MicroSD_Detection"
-		(shape input)
-		(at 82.55 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10514915-6fc2-4762-a09c-0f2c63e9d2c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.9523 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_BOOT0"
-		(shape output)
-		(at 85.09 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b37af7a0-2477-43b1-8891-d6fbd7906bff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.2028 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "{MCU_Serial_COM}"
 		(shape bidirectional)
 		(at 143.51 92.71 0)
@@ -6363,6 +6369,30 @@
 			(justify left)
 		)
 		(uuid "801b7ae3-8459-4e34-85af-05760c6e889e")
+	)
+	(hierarchical_label "MCU_BOOT0"
+		(shape output)
+		(at 82.55 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "82838cee-fff2-4dbe-82bf-b945cb434a32")
+	)
+	(hierarchical_label "MicroSD_Detection"
+		(shape input)
+		(at 82.55 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "bcfbf9f3-1468-4953-bd8a-8df8bcbd23d6")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7166,7 +7196,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.4 66.04 90)
+		(at 147.32 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7174,7 +7204,7 @@
 		(dnp no)
 		(uuid "26d82552-b2bf-48f7-b3da-03f96cce82b0")
 		(property "Reference" "#PWR069"
-			(at 156.21 66.04 0)
+			(at 151.13 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +7213,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 148.59 66.04 0)
+			(at 143.51 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +7222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 66.04 0)
+			(at 147.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +7231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 66.04 0)
+			(at 147.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7210,7 +7240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 66.04 0)
+			(at 147.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7482,7 +7512,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 66.04 90)
+		(at 156.21 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7490,7 +7520,7 @@
 		(dnp no)
 		(uuid "3866381d-c776-415f-94ba-85b659df34a0")
 		(property "Reference" "#PWR070"
-			(at 167.64 66.04 0)
+			(at 162.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,7 +7529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 66.04 0)
+			(at 160.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +7537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 66.04 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 66.04 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,7 +7555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 66.04 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +9441,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 157.48 66.04 90)
+		(at 152.4 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9419,7 +9449,7 @@
 		(dnp no)
 		(uuid "7857abf7-25bd-49f1-8ead-de5685779ee9")
 		(property "Reference" "C23"
-			(at 156.21 64.262 0)
+			(at 151.13 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,7 +9458,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 158.75 64.262 0)
+			(at 153.67 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +9467,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 157.48 66.04 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 66.04 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +9485,7 @@
 			)
 		)
 		(property "Description" "Ceramic capacitor, 10% 50V"
-			(at 157.48 66.04 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9494,7 @@
 			)
 		)
 		(property "PartNumber" "*"
-			(at 157.48 66.04 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,7 +9503,7 @@
 			)
 		)
 		(property "PackageReference" "0603"
-			(at 157.48 66.04 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9482,7 +9512,7 @@
 			)
 		)
 		(property "Manufacturer" "*"
-			(at 157.48 66.04 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,7 +9521,7 @@
 			)
 		)
 		(property "Comment" "Capacitor"
-			(at 157.48 66.04 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

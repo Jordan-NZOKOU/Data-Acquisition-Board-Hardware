@@ -700,6 +700,19 @@
 		)
 	)
 	(rectangle
+		(start 132.08 91.44)
+		(end 151.13 111.76)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86e271c4-3c2a-4cb6-8e47-03b4e1f5a463)
+	)
+	(rectangle
 		(start 106.68 55.88)
 		(end 198.12 113.03)
 		(stroke
@@ -735,6 +748,30 @@
 			(justify bottom)
 		)
 		(uuid "694a2b1c-b352-4cea-b560-dfbd87594b86")
+	)
+	(text_box "Adding an ESD diode may interfere with the DAC signal; that is why I have not included it by default.\nTests will determine whether or not it should be included."
+		(exclude_from_sim no)
+		(at 90.17 116.84 0)
+		(size 40.64 13.97)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "864fda7a-2700-41fd-98a7-1abfc3c0cc72")
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
@@ -841,6 +878,17 @@
 		)
 		(uuid "b1198e8f-4e29-409d-b46b-735dc64b8e06")
 	)
+	(polyline
+		(pts
+			(xy 132.08 100.33) (xy 123.19 116.84)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "b261ae15-6e49-46a1-bd9f-d51099b3c0e4")
+	)
 	(wire
 		(pts
 			(xy 146.05 85.09) (xy 146.05 92.71)
@@ -881,27 +929,17 @@
 		)
 		(uuid "f6999520-1057-44cf-b1a7-2dc7030287ff")
 	)
-	(global_label "DAC1"
+	(hierarchical_label "DAC1"
 		(shape output)
 		(at 129.54 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify right)
 		)
-		(uuid "049cebc7-0c33-4013-9bb9-fa65f7bba44c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.7167 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "866d3862-6de3-4b25-a887-d6f8371d3d61")
 	)
 	(symbol
 		(lib_id "power:GND")

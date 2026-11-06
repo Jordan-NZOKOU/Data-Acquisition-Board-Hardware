@@ -1868,6 +1868,19 @@
 		)
 	)
 	(rectangle
+		(start 201.93 63.5)
+		(end 213.36 80.01)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e0aa1d7-2494-460d-8566-2db600ff4a77)
+	)
+	(rectangle
 		(start 199.39 101.7403)
 		(end 236.22 144.7799)
 		(stroke
@@ -1879,6 +1892,19 @@
 			(type none)
 		)
 		(uuid bb9d9a0b-db25-4dcd-baf6-7f612b7a3d8a)
+	)
+	(rectangle
+		(start 83.82 96.52)
+		(end 97.79 113.03)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d2b22f51-52b7-4b1e-9241-4382753b15ce)
 	)
 	(rectangle
 		(start 199.39 35.56)
@@ -1952,6 +1978,56 @@
 			)
 		)
 		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
+	)
+	(text_box "LAYOUT NOTE:\nRoute analog traces away from digital signals."
+		(exclude_from_sim no)
+		(at 246.38 72.39 0)
+		(size 22.86 10.16)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "c71bfa90-729b-47a9-8a39-6571bfcf765e")
+	)
+	(text_box "Addition of a voltage-follower operational amplifier to avoid an impedance matching problem."
+		(exclude_from_sim no)
+		(at 19.05 100.33 0)
+		(size 25.4 8.89)
+		(margins 2 2 2 2)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c9b453af-d94e-4f1b-a07b-4738e8428781")
 	)
 	(text_box "Test Points"
 		(exclude_from_sim no)
@@ -2264,6 +2340,17 @@
 		)
 		(uuid "2918d0ee-d98a-44bb-978f-ee65adb3feda")
 	)
+	(polyline
+		(pts
+			(xy 44.45 105.41) (xy 83.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "2a0fb38a-fb13-4c16-bb7e-a386d972bc5f")
+	)
 	(wire
 		(pts
 			(xy 113.03 78.74) (xy 113.03 82.55)
@@ -2323,6 +2410,17 @@
 			(type default)
 		)
 		(uuid "30115946-feae-472d-8a92-cf25a3589603")
+	)
+	(polyline
+		(pts
+			(xy 213.36 77.47) (xy 246.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "3151302e-6954-4847-a5ae-1e8b7770df2f")
 	)
 	(wire
 		(pts

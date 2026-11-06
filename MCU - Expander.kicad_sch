@@ -1877,6 +1877,30 @@
 		)
 		(uuid "02b3af1c-232b-4602-b2d7-e93f6abc28e8")
 	)
+	(text_box "This switch must be used to set different parameters in the software, so that the board can operate differently as required.\nExample: bypass the sensor on the board; enable/disable ultra-low-power mode."
+		(exclude_from_sim no)
+		(at 207.01 27.94 0)
+		(size 45.72 10.16)
+		(margins 2 2 2 2)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0f620ba0-4e37-412a-8767-274bb4dc3ac4")
+	)
 	(text_box "BUS"
 		(exclude_from_sim no)
 		(at 26.67 90.0297 0)
@@ -1947,30 +1971,6 @@
 		)
 		(uuid "5384d15a-6631-4985-8ef4-fcc9b64a438c")
 	)
-	(text_box "^ Alternative of this IC :\n	- MCP23S17 More and less the same\n	- SX1508QB/SX1509QB More complexe, PWM supported \n	- TXE8124 : SPI(10MHz) 24 GPIOs\n"
-		(exclude_from_sim no)
-		(at 158.75 118.1122 0)
-		(size 40.64 8.8878)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 72 72 72 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 255 1)
-		)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.016 1.016)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "5f5f3742-0eea-4f7e-996b-4a9eeddcd929")
-	)
 	(text_box "Test Points"
 		(exclude_from_sim no)
 		(at 212.09 106.68 0)
@@ -2016,6 +2016,54 @@
 			)
 		)
 		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
+	)
+	(text_box "The response time - that is, the delay between the expander receiving a trigger signal and the microcontroller receiving that signal - can be problematic if you require a rapid response.\nThis delay can be reduced by using an SPI expander in high-speed mode. This option will be included in a new version of the board."
+		(exclude_from_sim no)
+		(at 52.07 137.16 0)
+		(size 40.64 22.86)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ddc89663-c871-45a9-982c-7e496c1ffc8e")
+	)
+	(text_box "^ Alternative of this IC :\n	- MCP23S17 More and less the same\n	- SX1508QB/SX1509QB More complexe, PWM supported \n	- TXE8124 : SPI(10MHz) 24 GPIOs\n"
+		(exclude_from_sim no)
+		(at 157.48 118.11 0)
+		(size 43.18 10.16)
+		(margins 2 2 2 2)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ef86f56c-fbfc-42e3-830f-cf5c9cdce069")
 	)
 	(junction
 		(at 246.38 90.17)
@@ -2095,10 +2143,6 @@
 		(color 0 0 0 0)
 		(uuid "e696d9ff-bcdc-4502-bf66-ac61b36d55ea")
 	)
-	(no_connect
-		(at 45.72 71.12)
-		(uuid "a979d474-2f91-46ad-94db-12689b48da98")
-	)
 	(bus_entry
 		(at 60.96 114.3)
 		(size 2.54 2.54)
@@ -2141,16 +2185,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 120.65) (xy 252.73 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08b78f19-5d4f-49d8-849d-f22d798e5493")
-	)
-	(wire
-		(pts
 			(xy 170.18 106.68) (xy 172.72 106.68)
 		)
 		(stroke
@@ -2168,6 +2202,27 @@
 			(type default)
 		)
 		(uuid "09cbe258-fa50-4373-8cbc-a16ac1d5edb1")
+	)
+	(polyline
+		(pts
+			(xy 139.7 99.06) (xy 85.09 137.16)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "0a8c4143-ec6c-4c77-a0a7-1bad6a2a3ad1")
+	)
+	(wire
+		(pts
+			(xy 223.52 123.19) (xy 252.73 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c12086e-11f5-4af9-bc9f-d488bd199974")
 	)
 	(wire
 		(pts
@@ -2188,6 +2243,17 @@
 			(type default)
 		)
 		(uuid "139bc80d-330b-49e9-8445-de48d8071c80")
+	)
+	(polyline
+		(pts
+			(xy 228.6 38.1) (xy 228.6 67.31)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "162bbcd7-e7fc-44d4-a7ca-c01b77be52a1")
 	)
 	(wire
 		(pts
@@ -2211,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 77.47) (xy 252.73 77.47)
+			(xy 241.3 77.47) (xy 265.43 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2401,23 +2467,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 72.39) (xy 252.73 72.39)
+			(xy 246.38 72.39) (xy 265.43 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "407daace-2dc9-4a64-9bd4-c43f5fe302cd")
-	)
-	(wire
-		(pts
-			(xy 170.18 81.28) (xy 172.72 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "452f1e4e-16aa-49a0-aff3-5b24a0db9784")
 	)
 	(wire
 		(pts
@@ -2448,6 +2504,26 @@
 			(type default)
 		)
 		(uuid "5b823f52-a696-4bbe-98ad-3a85afffe12d")
+	)
+	(wire
+		(pts
+			(xy 223.52 119.38) (xy 252.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8370e8-9177-4d76-855f-def067a4f5b7")
+	)
+	(wire
+		(pts
+			(xy 172.72 82.55) (xy 172.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b86b23d-aff4-4e65-8284-cfd0dee83d4c")
 	)
 	(wire
 		(pts
@@ -2508,16 +2584,6 @@
 			(type default)
 		)
 		(uuid "6a3ce338-63a7-4859-ba97-50ef557f1836")
-	)
-	(wire
-		(pts
-			(xy 242.57 123.19) (xy 252.73 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6df7ad10-cf7e-45f2-bfbf-3db35f2ca256")
 	)
 	(wire
 		(pts
@@ -2601,7 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 99.06) (xy 172.72 99.06)
+			(xy 170.18 99.06) (xy 185.42 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2638,6 +2704,16 @@
 			(type default)
 		)
 		(uuid "817de6db-a186-4ed6-ae74-211fdd1947c4")
+	)
+	(wire
+		(pts
+			(xy 172.72 81.28) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821231e8-598f-4a59-8b83-538003216a08")
 	)
 	(wire
 		(pts
@@ -2679,6 +2755,16 @@
 		)
 		(uuid "864b7c39-fdc6-4f42-8f52-d0cf748d4f6f")
 	)
+	(wire
+		(pts
+			(xy 45.72 71.12) (xy 45.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866ed7a5-5a54-45b2-a495-0ca3e2f2198e")
+	)
 	(bus
 		(pts
 			(xy 57.15 107.95) (xy 58.42 107.95)
@@ -2691,7 +2777,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 172.72 96.52)
+			(xy 27.94 72.39) (xy 45.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d18efcf-1f74-425a-bf0b-51646e22bd07")
+	)
+	(wire
+		(pts
+			(xy 170.18 96.52) (xy 185.42 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2711,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 69.85) (xy 252.73 69.85)
+			(xy 248.92 69.85) (xy 265.43 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2721,7 +2817,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 101.6) (xy 172.72 101.6)
+			(xy 170.18 101.6) (xy 185.42 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2811,7 +2907,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 74.93) (xy 252.73 74.93)
+			(xy 243.84 74.93) (xy 265.43 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2851,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 104.14) (xy 172.72 104.14)
+			(xy 170.18 104.14) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2921,6 +3017,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 82.55) (xy 172.72 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70f53c1-5f58-4e0b-b26e-f81c0a2ce985")
+	)
+	(wire
+		(pts
 			(xy 43.18 68.58) (xy 45.72 68.58)
 		)
 		(stroke
@@ -2939,6 +3045,72 @@
 		)
 		(uuid "fea3cd14-7a03-4ce4-b2b4-bee38ad9d055")
 	)
+	(label "GPIO_Expander_~{RESET}"
+		(at 223.52 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0da5984a-274e-4e53-a337-559be7708757")
+	)
+	(label "Switch_DIP_1"
+		(at 185.42 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "105efc50-2b59-4de2-8d64-49d25268d3e3")
+	)
+	(label "Switch_DIP_3"
+		(at 185.42 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "2677aa34-215f-49ad-a807-6175d2fe751b")
+	)
+	(label "Switch_DIP_4"
+		(at 265.43 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b7bc38b-806f-4601-b8bf-5368fd0e35a2")
+	)
+	(label "Switch_DIP_3"
+		(at 265.43 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e16ecd5-0f0a-4ed4-8659-e70dd642369d")
+	)
+	(label "Switch_DIP_2"
+		(at 265.43 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "41e25ad2-4720-466e-a77c-80ac71731b53")
+	)
 	(label "I2C2_SDA"
 		(at 109.22 73.66 0)
 		(effects
@@ -2949,6 +3121,17 @@
 			(justify left bottom)
 		)
 		(uuid "42d2fcbc-5f0b-479b-89d6-a33ff40106c9")
+	)
+	(label "Switch_DIP_4"
+		(at 185.42 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "66534ccb-08cc-483a-a46c-552ca673cef3")
 	)
 	(label "I2C2_SCL"
 		(at 109.22 76.2 0)
@@ -2961,6 +3144,39 @@
 		)
 		(uuid "6cb30f38-2e33-4657-97e5-2700eaaf1694")
 	)
+	(label "MCU_EXP_SPARE1"
+		(at 191.77 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "7229659a-806d-47a7-a580-5bd602f92f65")
+	)
+	(label "Switch_DIP_2"
+		(at 185.42 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d9a2ed1-c822-4d1a-a040-1c1210a174bf")
+	)
+	(label "Switch_DIP_1"
+		(at 265.43 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "a75cb609-f8c4-431a-941e-154548f4e5ac")
+	)
 	(label "I2C2_SCL"
 		(at 82.55 116.84 180)
 		(effects
@@ -2971,6 +3187,28 @@
 			(justify right bottom)
 		)
 		(uuid "d054c192-8368-49e7-8840-ea50ed84de85")
+	)
+	(label "GPIO_Expander_~{INT}"
+		(at 223.52 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d10a32d6-0c42-4ad0-b5dc-507e163ad7c4")
+	)
+	(label "MCU_EXP_SPARE1"
+		(at 27.94 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "df593b0f-13ba-403d-baef-163b0f6285dd")
 	)
 	(label "I2C2_SDA"
 		(at 82.55 114.3 180)
@@ -2983,581 +3221,185 @@
 		)
 		(uuid "ff65ac81-d5d7-40dc-aee7-eeba0d58b301")
 	)
-	(global_label "GPIO_Expander_~{INT}"
-		(shape output)
-		(at 127 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "015eca3a-17e6-411c-a069-ea8e3fa6e83d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.0535 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_Expander_~{RESET}"
-		(shape output)
-		(at 127 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03c1b410-6beb-4883-9941-15158c77f255")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.2113 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CD_RELAY1"
-		(shape output)
-		(at 172.72 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "0767a878-24b7-455b-9a5e-f2c731e834c3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.0466 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IMU_SENSOR_INT1"
-		(shape input)
-		(at 172.72 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ab5838b-34aa-40f3-ac1a-ffe1726b125b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.6385 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch_DIP_4"
-		(shape output)
-		(at 252.73 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "265b55a8-c708-46c1-ae74-f6be97385e83")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1128 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch_DIP_2"
-		(shape output)
-		(at 252.73 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "268fcbc3-674a-4774-abe2-83f0abda7a0f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1128 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_EXP_P16"
-		(shape bidirectional)
-		(at 172.72 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29ce3175-ad61-4443-b8d2-4f5156978ec8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5445 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_SPARE1"
-		(shape bidirectional)
-		(at 43.18 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2b79de61-0ff0-4b51-94a0-1bca7853c507")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.9787 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch_DIP_4"
-		(shape input)
-		(at 172.72 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3be16752-bdbb-4f22-9b26-05263f689bbd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.1028 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch_DIP_1"
-		(shape output)
-		(at 252.73 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f533a66-a286-455f-95e5-c52b0dd91120")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1128 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IMU_SENSOR_INT2"
-		(shape input)
-		(at 172.72 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "692394d6-609a-42f5-9fbc-82535a6fbf00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.6385 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MicroSD_Detection"
-		(shape input)
-		(at 172.72 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6eac0c19-0701-4530-8d57-77689fe4fd65")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.1223 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RS485_~{RE}"
-		(shape output)
-		(at 172.72 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "78048824-1f00-45a3-9f74-93c1fdcef310")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.1998 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_Expander_~{RESET}"
-		(shape input)
-		(at 242.57 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84ef0baf-7254-4d9a-b967-dc0578f8f262")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.7813 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_EXP_P14"
-		(shape bidirectional)
-		(at 172.72 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99f9056e-476d-412a-bd91-9eefa4b5636f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5445 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch_DIP_3"
-		(shape output)
-		(at 252.73 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9bf20b3d-eca9-4d22-b823-1cebe895bbd7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1128 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_SPARE2"
-		(shape bidirectional)
-		(at 43.18 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a26953ce-08c1-4a22-afd3-0be2f80fc848")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.8674 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_Expander_~{INT}"
-		(shape input)
-		(at 242.57 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "afb218d6-a50b-4790-8ab6-5c24eb1ec595")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.6235 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch_DIP_3"
-		(shape input)
-		(at 172.72 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3814b20-c160-4d87-85c9-c7ab8defb95f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.1028 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RS485_DE"
-		(shape output)
-		(at 172.72 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "bd81c72b-4efc-4d90-8cd2-09ab974b158e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.1998 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_EXP_P17"
-		(shape bidirectional)
-		(at 172.72 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c60c505b-0d05-4be8-aea2-fe0cb5df55b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5445 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch_DIP_1"
-		(shape input)
-		(at 172.72 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "deb6544a-bc3b-4055-8fc0-18081051a145")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.1028 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CD_RELAY2"
-		(shape output)
-		(at 172.72 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "e09966c1-e5c5-485c-98cf-361e8a392531")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.0466 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Light_SENSOR_INT"
+	(hierarchical_label "Light_SENSOR_INT"
 		(shape input)
 		(at 172.72 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "e76fa04a-b29e-4b3a-9253-79d988ccb9c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.6989 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "1bc78104-0d96-46a9-ab27-085ebf388c0a")
 	)
-	(global_label "Switch_DIP_2"
+	(hierarchical_label "CD_RELAY1"
+		(shape output)
+		(at 172.72 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "2b0ba132-ed78-4c90-b1a3-ca5ee05ac674")
+	)
+	(hierarchical_label "RS485_~{RE}"
+		(shape output)
+		(at 172.72 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "2c5c6d77-fac3-4863-b2f8-b2222fa9a0b1")
+	)
+	(hierarchical_label "GPIO_Expander_~{INT}"
+		(shape output)
+		(at 127 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "4c42ec73-8130-40e7-993b-6f0bf4b3beb5")
+	)
+	(hierarchical_label "GPIO_Expander_~{RESET}"
+		(shape output)
+		(at 127 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "557c1b4d-0485-4284-8d1a-f400f8c250ed")
+	)
+	(hierarchical_label "GPIO_EXP_P14"
+		(shape bidirectional)
+		(at 172.72 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "5f4702e4-e497-4982-bf45-a18b0edf6eb1")
+	)
+	(hierarchical_label "IMU_SENSOR_INT2"
 		(shape input)
-		(at 172.72 99.06 0)
-		(fields_autoplaced yes)
+		(at 172.72 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "f23a61d1-8eb6-44b0-adf7-12e7f559b368")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.1028 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "6ba2dddb-fa0d-46e5-a838-8a25ef09d1b9")
 	)
-	(global_label "GPIO_EXP_P15"
+	(hierarchical_label "GPIO_EXP_P17"
+		(shape bidirectional)
+		(at 172.72 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "6c1bd263-1442-4e0d-b967-2b4ada9fb70e")
+	)
+	(hierarchical_label "CD_RELAY2"
+		(shape output)
+		(at 172.72 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "876d430b-2792-4592-be28-d966fc408abe")
+	)
+	(hierarchical_label "GPIO_EXP_P15"
 		(shape bidirectional)
 		(at 172.72 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "f88ded52-8221-4528-91c5-7a1d7858cf46")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5445 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "a96bbe2d-bb67-4768-b2aa-cd8749469ca5")
+	)
+	(hierarchical_label "RS485_DE"
+		(shape output)
+		(at 172.72 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
+			(justify left)
 		)
+		(uuid "aeade260-a4f2-4d28-b0ff-1e4f0c631f44")
+	)
+	(hierarchical_label "MCU_SPARE1"
+		(shape bidirectional)
+		(at 43.18 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "ba718568-ad23-4a2d-b4a4-4e580ce00fd9")
+	)
+	(hierarchical_label "GPIO_EXP_P16"
+		(shape bidirectional)
+		(at 172.72 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d40fde1b-3908-4036-9690-bd653f9c000f")
+	)
+	(hierarchical_label "MCU_SPARE2"
+		(shape bidirectional)
+		(at 43.18 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "dce1c40c-5f57-40ba-81a5-e8850322ac61")
+	)
+	(hierarchical_label "IMU_SENSOR_INT1"
+		(shape input)
+		(at 172.72 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e90d09be-473c-439b-82dc-5cbb10562eed")
 	)
 	(hierarchical_label "{MCU_Serial_COM}"
 		(shape bidirectional)
@@ -4418,7 +4260,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 252.73 120.65 270)
+		(at 252.73 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4426,7 +4268,7 @@
 		(dnp no)
 		(uuid "37b07a3d-6390-4008-8b9e-16368c74ac55")
 		(property "Reference" "TP5"
-			(at 257.556 120.65 90)
+			(at 257.556 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4277,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 257.81 121.9199 90)
+			(at 257.81 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4287,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 252.73 125.73 0)
+			(at 252.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 125.73 0)
+			(at 252.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4305,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 252.73 120.65 0)
+			(at 252.73 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
