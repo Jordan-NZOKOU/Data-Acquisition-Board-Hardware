@@ -8,7 +8,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 7,3,C57 C63 C65,100uF,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,"Ceramic capacitor, 10% 50V Polarized capacitor, small symbol",*,*,
 8,2,D24 D25,*,http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF,D_SMA,"400V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)",Onsemi,MRA4004T3G,
 9,1,D30,13V,https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf,D_SOD-123F,"500mW Zener Diode, SOD-123F",*,BZT52B13,
-10,1,D32,18V,https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf,D_SOD-123F,"500mW Zener Diode, SOD-123F",*,BZT52B18,
+10,1,D32,18V,https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf,D_SOD-123F,"500mW Zener Diode, SOD-123F",*,BZT52B22,
 11,1,D31,22V,,D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Bidirectional transient-voltage-suppression diode,SEMTECH,RCLAMP2261PW.C,
 12,1,D33,2A,https://www.onsemi.com/pdf/datasheet/murs220t3-d.pdf,D_SMB,"Diode, small symbol",onsemi,MURS220T3G,
 13,12,D7 D8 D9 D10 D12 D13 D14 D15 D16 D17 D19 D20,3.3V,,D_SOD-123F,"Zener diode, small symbol",Diotec,BZT52C3V3,
